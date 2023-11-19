@@ -13,14 +13,14 @@ body{
     padding: 0;
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.6rem;
-    color: #000000;
+    /* color: #000000; */
 }
 
 /* == TYPOGRAPHY == */
 
 h1 {
     font-family: 'Lato', sans-serif;
-    font-size: 5rem;
+    font-size: 2.5 rem;
     color: #283618;
     text-align: center;
   }
@@ -34,3 +34,114 @@ p {
     line-height: 2.4rem;
   }
   
+
+/*----------- HEADER CODING BEGINS HERE----------- */  
+
+  header {
+    background-color: #efefef;
+    
+  }
+  
+  header .wrapper-width {
+      padding: 9.5px 25px 0px 20px;
+      display: flex;
+      justify-content: space-between;
+ }
+    
+ .toggle i {
+      color: #283618;
+      font-size:2.0rem;
+      margin-top: 14px;
+      margin-bottom: 20px;
+  
+  }
+  
+  header img{
+      width: 150px;
+      height: 60px;
+      margin-bottom: 15px;
+  
+  }
+  
+  .nav-anchor{
+    display: none;
+    
+  }
+  
+nav {
+    text-align: right;
+  }
+    
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: none;
+    }
+    
+    nav ul li {
+      padding: 12px 0;
+      font-size:1.5rem;
+      color: #BC6C25;
+      text-transform: uppercase;
+      text-align: center;
+    }
+  
+    .login{
+      margin-top: 10px;
+    }
+  
+    nav li a{
+      text-decoration: none;
+      background-color: #283618;
+      color: #FFFFFF;
+      padding: 10px 10px;
+      border-radius: 5px;
+      font-size: 1.2rem;
+  
+   }
+    .show-items {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      margin-bottom: 10px;
+      
+    }
+  
+
+  /*----------HERO SECTION BEGINS HERE----------  */
+  .hero{
+    background: #F2F5F7 0% 0% no-repeat padding-box;
+    margin-top: -42px;
+    text-align: center;
+  }    
+
+  .hero-text h1{
+    font-size: 2.8rem;
+    padding-top: 78px;
+    text-align: center;
+    padding: 70px 10px 10px 10px;
+ }
+
+ .hero-text p{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 0 20px 50px 20px;
+  }
+
+  .hero-text a{
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    background-color: #283618;
+    padding: 13.5px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+
+  .hero-image img{
+    margin-top: 65px;
+    width: 300px;
+    height: 255px;
+  }
