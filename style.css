@@ -11,25 +11,31 @@ html{
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 1.6rem;
-    /* color: #000000; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8rem;
 }
 
 /* == TYPOGRAPHY == */
 
 h1 {
     font-family: 'Lato', sans-serif;
-    font-size: 2.5 rem;
+    font-size: 2.8rem;
     color: #283618;
     text-align: center;
   }
   
 h2 {
-    font-size: 2.1rem;
+    font-size: 2.4rem;
     color: #283618;
+    margin: 0 25px;
+    padding: 0 6px;
+    text-align: center;
   }
   
+h3{
+    font-size: 2.2rem;
+}  
+    
 p {
     line-height: 2.4rem;
   }
@@ -39,6 +45,8 @@ p {
 
   header {
     background-color: #efefef;
+    margin-bottom: 40px;
+  
     
   }
   
@@ -117,14 +125,11 @@ nav {
   }    
 
   .hero-text h1{
-    font-size: 2.8rem;
-    padding-top: 78px;
     text-align: center;
-    padding: 70px 10px 10px 10px;
+    padding: 50px 15px 10px 15px;
  }
 
  .hero-text p{
-    font-family: 'Roboto', sans-serif;
     text-align: center;
     font-size: 1.8rem;
     margin: 0 20px 50px 20px;
@@ -145,3 +150,56 @@ nav {
     width: 300px;
     height: 255px;
   }
+
+
+/* ----------Services SECTION CODING------------- */
+
+.services{
+    margin-top: 55px;
+    text-align: center;
+    margin-bottom: 80px;
+  }
+  .services-text p{
+    padding: 0 35px;
+    margin-bottom: 12px;
+ }
+  
+ .services-image a{
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    background-color: #283618;
+    padding: 13.5px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.services-image{
+    margin-top: 35px; 
+    margin-bottom: 50px;
+} 
+
+.text-boxes img{
+    width: 260px;
+    height: 210px;
+}
+
+
+.text-boxes h3{
+    color: #283618;
+    margin-bottom: 20px;
+  }
+
+.text-boxes p{
+    margin: 25px 60px;
+}  
+
+.services .service-anchor{
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    background-color: #283618;
+    padding: 13.5px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
