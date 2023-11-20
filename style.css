@@ -203,3 +203,22 @@ nav {
     border-radius: 5px;
     text-decoration: none;
 }
+
+
+/* -------- ABOUT SECTION CODING--------- */
+.about{
+    text-align: center;
+}
+
+.about h2{
+    margin-bottom: 30px;
+}
+
+.about-image img{
+    width: 260px;
+    height: 210px;
+}
+
+.about-text p{
+    padding: 15px 38px;
+}
