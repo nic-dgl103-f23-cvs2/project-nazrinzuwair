@@ -566,4 +566,23 @@ nav {
     margin: 10px;
   }
 
+
+  /* MEDIA QUERIES FOR TESTOMONIAL SECTION */
+  .testomonial-section{
+    width: 1170px;
+    margin: 50px auto;
+    padding: 40px 0;
+    background-image: url(images/travel.jpg);
+    
+  }
+
+  .testomonial-card{
+    padding: 20px 80px;
+    background-color: rgb(253, 253, 253);
+    margin: 40px 190px;
+    opacity: 0.8;
+    
+  }
+
+  
 }  
