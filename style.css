@@ -93,17 +93,21 @@ nav {
     
     nav ul li {
       padding: 12px 0;
-      font-size:1.5rem;
-      color: #BC6C25;
-      text-transform: uppercase;
-      text-align: center;
     }
   
     .login{
       margin-top: 10px;
     }
+
+    nav ul li a{
+      text-decoration: none;
+      color: #BC6C25;
+      text-transform: uppercase;
+      font-size:1.5rem;
+      text-align: center;
+    }
   
-    nav li a{
+    nav li .reservation-anchor, .book-anchor{
       text-decoration: none;
       background-color: #283618;
       color: #FFFFFF;
@@ -406,3 +410,46 @@ nav {
   margin: 20px 20px 0px 20px;
   padding:15px 0;
 }
+
+
+/* Large devices (desktops, 1200px and up) */
+
+
+@media only screen and (min-width: 1200px) {
+  .wrapper-width {
+    width: 1170px;
+    margin: auto;
+  }
+
+  /* MEDIA QUERIES FOR NAVIGATION */
+  nav .toggle {
+    display: none;
+  }
+
+  .navigation-elements ul{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+    
+  }
+
+  nav{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+
+  .show-items li{
+    margin: 10px 30px 0 0;
+    
+  }
+
+  .reservation-anchor{
+    margin-left: 60px;
+    
+  }
+
+
+
+
+}  
