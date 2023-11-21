@@ -227,7 +227,7 @@ nav {
     padding: 15px 38px;
 }
 
-/* ---------TESTOMONIAL SECTION CODING BEGINS HERE------------ */
+/* ---------BENEFITS SECTION CODING BEGINS HERE------------ */
 
 .benefits{
     margin-top: 40px;
@@ -255,57 +255,110 @@ nav {
     border: 2px solid #283618;
 }
 
-/* .testomonial{
-    margin-top: 55px;
+
+/* ----------TESTOMONIAL SECTION CODING BEGINS HERE------------- */
+.testomonial{
+    margin: 60px 0;
     text-align: center;
-}
-
-.testomonial-cards{
-    margin: 0 20px;
-    
-}
-
-.testomonial-boxes img{
-    margin-top: 40px;
-}
-
-.testomonial-boxes:nth-child(1),
-.testomonial-boxes:nth-child(2) {
-    border-bottom: 2px solid #F2F5F7;
-}
+  }
 
 .testomonial h2{
-    font-size: 2.8rem;
-    padding: 0 80px;
-    line-height: 38px;
-    margin-bottom: 0;
-    color: #505D68;
+    margin-bottom: 30px;
+  
 }
 
-.testomonial-boxes p{
-    margin-top: 30px;
-    font-size: 1.6rem;
-    color: #A1AEB7;
-    line-height: 24px;
-    padding: 0 32px;
-    height: 102px;
-    overflow: hidden;
-   margin-bottom: 0;
-   padding-bottom: 0;
-    
+.testomonial-section{
+  margin-bottom: 50px;
 }
 
-.testomonial-boxes h4{
-    font-size: 1.6rem;
-    color: #505D68;
-    font-weight: 400;
-    margin-bottom: 0;
+.testomonial-card img{
+  margin-top: 10px;
+  width: 125px;
+  height: 125px;
+  border-radius: 80px;
+  border: 4px solid #283618;
+  padding: 3px;
+} 
+
+.testomonial-card h3{
+  color: #283618;
+  margin-bottom: 0;
 }
 
-.testomonial-boxes h5{
-    margin-top: 5px;
-    color: #A1AEB7;
-    font-size: 1.4rem;
-    font-weight: 400;
-    margin-bottom: 40px;
+.testomonial-card p{
+  margin-top: 10px;
+  padding: 0 50px;
+  width: 100%;
+  white-space: nowrap; 
+  overflow: hidden; 
+  text-overflow: ellipsis;
+  
+}
+
+.testomonial a{
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    background-color: #283618;
+    padding: 13.5px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+/* ----------CALL-TO-ACTION CODING BEGINS HERE----------- */
+
+.call-to-action{
+  background: #283618;
+  text-align: center;
+  margin-bottom: 80px;
+  padding-bottom: 60px; 
+}
+
+.call-to-action h3{
+  font-size: 2.5rem;
+  padding-top: 40px;
+  color: #FFFFFF;
+  margin: 40px 30px 0 30px;
+}
+
+.call-to-action p{
+  color: #FFFFFF;
+  font-size: 1.8rem;
+  line-height: 24px;
+  margin: 35px 35px 41px 35px;
+}
+
+.call-to-action a{
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #283618;
+  text-transform: uppercase;
+  background-color: #FFFFFF;
+  padding: 13.5px 40px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/* -------FOOTER CODING BEGINS HERE-------- */
+/* .footer-section li{
+  list-style: none;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 0 40px 30px 0;
+  color: #505D68;
+  text-transform: uppercase;
+  font-weight: 700;
+
+}
+
+.footer-below p{
+   border-top: 2px solid #A1AEB7;
+   font-size: 1.4rem;
+   text-align: center;
+   color: #A1AEB7;
+   margin: 0 20px;
+   padding:15px 0;
 } */
+
+
