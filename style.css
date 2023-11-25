@@ -449,8 +449,19 @@ nav {
 
 /* RESERVATION ABOUT SECTION CODING BEGINS HERE */
 
+.reservation-about h2{
+  margin: 40px 0;
+}
 
+.reserv-paragraph span{
+  display: block;
+  margin: 20px 40px 10px 40px;
+  text-align: center;
+}
 
+.bold{
+  font-weight: bold;
+}
 
 
 

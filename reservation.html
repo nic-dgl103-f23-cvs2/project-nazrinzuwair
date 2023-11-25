@@ -49,12 +49,116 @@
 
         <!-- Reservation information section -->
         <section class="reservation-about">
-            <p>Thank you for choosing Ambassador for your transportation needs in the Comox Valley. Please complete the following form accurately. This information will be forwarded to our reservation department, and you will receive a confirmation email for your records. Payment can be made to your driver upon pickup. We accept cash, debit, and Visa/Mastercard. For any inquiries, please call us at 250-339-5252 (LOCAL) or 1-877-339-5252 (OUT OF AREA). <span class="reserv-bold">Please note: While we regularly check our reservations every 12 hours, a MINIMUM notice of 24 hours is required. If you require immediate service, kindly call us, and we will do our best to accommodate your request. We will reach out to you to confirm any reservation.</span>
+            <h2>Thank you for choosing Ambassador for your transportation needs in the Comox Valley </h2>
+            <p class="reserv-paragraph">
+                <span>Please complete the following form accurately. This information will be forwarded to our reservation department, and you will receive a confirmation email for your records.</span>
+                <span>Payment can be made to your driver upon pickup. We accept cash, debit, and Visa/Mastercard.</span>
+                <span>For any inquiries, please call us at 250-339-5252 (LOCAL) or 1-877-339-5252 (OUT OF AREA).</span>
+                <span class="bold">Please note: While we regularly check our reservations every 12 hours, a MINIMUM notice of 24 hours is required. If you require immediate service, kindly call us, and we will do our best to accommodate your request. We will reach out to you to confirm any reservation.</span>
             </p>
-
         </section>
 
+        <!-- Reservation benefits section -->
+        <section class="reservation-form">
+            <form method="post" class="reserv-form">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="First Name" required>
+                <input type="text" id="lname" name="lastname" placeholder="Last Name" required>
 
+                <label for="address">Home Address</label>
+                <input type="text" id="streetAddress" name="streetAddress" placeholder="Street Address" required>
+                <input type="text" id="city" name="city" placeholder="City" required>
+                <input type="text" id="state" name="state" placeholder="State / Province / Region" required>
+                <input type="text" id="zipCode" name="zipCode" placeholder="ZIP / Postal Code" required>
+                <input type="text" id="country" name="country" placeholder="Country" required>
+
+                <label for="phone">Contact Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="Contact Number" required>
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="Email Address" required>
+
+                <label for="destination">Destination*</label>
+                <input type="text" id="destination" name="destination" placeholder="Destination" required>
+                
+                <fieldset>
+                    <legend>What type of transport do you require?</legend>
+                  
+                    <input type="radio" id="shuttle" name="transportType" value="shuttle" required>
+                    <label for="shuttle">Shuttle Services</label>
+                  
+                    <input type="radio" id="limousine" name="transportType" value="limousine" required>
+                    <label for="limousine">Limousine Services</label>
+                  
+                    <input type="radio" id="tour" name="transportType" value="tour" required>
+                    <label for="tour">Tour</label>
+                </fieldset>
+                  
+               
+                <label for="numberguests">Please specify the number of guests in your party</label>
+                <select id="guests" name="guests">
+                  <option value="1">1 Guest</option>
+                  <option value="2">2 Guests</option>
+                  <option value="3">3 Guests</option>
+                  <option value="4">4 Guests</option>
+                  <option value="5">5 Guests</option>
+                  <option value="6">6 Guests</option>
+                  <option value="moreThan6">More than 6 Guests</option>
+                </select>      
+                  
+                <fieldset class="form-group">
+                    <legend>Select Pick-Up Location:</legend>
+                    <input type="radio" id="homeAddress" name="pickupLocation" value="homeAddress">
+                    <label for="homeAddress">My Home Address (provided above)</label>
+                
+                    <input type="radio" id="comoxAirport" name="pickupLocation" value="comoxAirport">
+                    <label for="comoxAirport">Comox Valley Airport (YQQ)</label>
+                
+                    <input type="radio" id="littleRiver" name="pickupLocation" value="littleRiver">
+                    <label for="littleRiver">Little River Ferry Terminal</label>
+                
+                    <input type="radio" id="departureBay" name="pickupLocation" value="departureBay">
+                    <label for="departureBay">Departure Bay Ferry Terminal (Nanaimo)</label>
+                
+                    <input type="radio" id="dukePoint" name="pickupLocation" value="dukePoint">
+                    <label for="dukePoint">Duke Point Ferry Terminal (Nanaimo)</label>
+                
+                    <input type="radio" id="other" name="pickupLocation" value="other">
+                    <label for="other">Other</label>
+                </fieldset>
+                
+                <fieldset class="form-group">
+                    <legend>When do you need to be picked up?</legend>
+                  
+                    <input type="radio" id="asap" name="pickupTime" value="ASAP">
+                    <label for="asap">ASAP</label><br>
+                  
+                    <input type="radio" id="selectDateTime" name="pickupTime" value="selectDateTime">
+                    <label for="selectDateTime">Select time and date of travel</label><br>
+                  
+                    <div id="dateTimeFields" style="display: none;">
+                      <label for="pickupTime">What time do you need to be picked up?</label>
+                      <input type="text" id="hours" name="hours" placeholder="HH" maxlength="2" size="2"> :
+                      <input type="text" id="minutes" name="minutes" placeholder="MM" maxlength="2" size="2">
+                      <select id="ampm" name="ampm">
+                        <option value="AM">AM</option>
+                        <option value="PM">PM</option>
+                      </select><br>
+                  
+                      <label for="dateOfTravel">Your date of travel?</label>
+                      <input type="text" id="day" name="day" placeholder="DD" maxlength="2" size="2">
+                      <input type="text" id="month" name="month" placeholder="MM" maxlength="2" size="2">
+                      <input type="text" id="year" name="year" placeholder="YYYY" maxlength="4" size="4">
+                    </div>
+                  </fieldset>
+
+                  <label for="specialRequests">Additional Notes:</label>
+                  <textarea id="specialRequests" placeholder="Enter any special requirements or details"></textarea>
+                  
+ 
+
+            </form>
+        </section>
 
     </main>
 
@@ -70,6 +174,13 @@
             var element = document.getElementById("nav-items");
             element.classList.toggle("show-items");
         }
+    </script>
+
+    <script>
+        document.getElementById('selectDateTime').addEventListener('change', function() {
+        var dateTimeFields = document.getElementById('dateTimeFields');
+        dateTimeFields.style.display = this.checked ? 'block' : 'none';
+        });
     </script>
 
     
