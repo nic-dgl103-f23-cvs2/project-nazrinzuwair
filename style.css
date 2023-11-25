@@ -316,6 +316,19 @@ nav {
 }
 
 
+.testomonial-section{
+  padding: 40px 40px;
+  background-image: url(images/travel.jpg);
+  background-attachment: fixed;
+  
+}
+
+.testomonial-card{
+  background-color: rgb(253, 253, 253);
+  margin:30px 0;
+  opacity: 0.8;
+  
+}
 /* ----------CALL-TO-ACTION CODING BEGINS HERE----------- */
 
 .call-to-action{
@@ -418,8 +431,50 @@ nav {
 }
 
 
-/* Large devices (desktops, 1200px and up) */
+/* ----------------RESERVATION PAGE CSS BEGINS HERE---------------------------- */
 
+/* RESERVATION HERO SECTION CODING BEGINS HERE */
+.reservation-hero{
+    background: url(images/reservation-banner.jpg);
+    margin-top: -42px;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+  }
+
+.reservation-hero h1{
+  padding-top: 20vh;
+  color: #FFFFFF;
+}
+
+/* RESERVATION ABOUT SECTION CODING BEGINS HERE */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Large devices (desktops, 1200px and up)  */
 
 @media only screen and (min-width: 1200px) {
   .wrapper-width {
@@ -578,15 +633,12 @@ nav {
   .testomonial-section{
     width: 1170px;
     margin: 50px auto;
-    padding: 40px 0;
-    background-image: url(images/travel.jpg);
-    background-attachment: fixed;
+    
     
   }
 
   .testomonial-card{
     padding: 20px 80px;
-    background-color: rgb(253, 253, 253);
     margin: 40px 190px;
     opacity: 0.8;
     
@@ -622,7 +674,7 @@ footer{
   .footer-3{
     margin-top: 30px;
     width: 400px;
-    margin-right: ;
+    
   }
 
   .google-location{
