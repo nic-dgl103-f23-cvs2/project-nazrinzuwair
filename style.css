@@ -72,6 +72,7 @@ p {
       width: 150px;
       height: 60px;
       margin-bottom: 15px;
+      object-fit: cover;
   
   }
   
@@ -282,6 +283,7 @@ nav {
   border-radius: 80px;
   border: 4px solid #283618;
   padding: 3px;
+  object-fit: cover;
 } 
 
 .testomonial-card h3{
@@ -463,8 +465,9 @@ nav {
   .hero-image img{
     margin-top: 50px;
     margin-left: 80px; 
-    width: 350px;
-    height: 350px;
+    width: 400px;
+    height: 360px;
+    object-fit: cover;
   }
 
   .hero-text{
@@ -573,6 +576,7 @@ nav {
     margin: 50px auto;
     padding: 40px 0;
     background-image: url(images/travel.jpg);
+    background-attachment: fixed;
     
   }
 
