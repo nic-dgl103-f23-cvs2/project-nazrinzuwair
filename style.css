@@ -465,7 +465,17 @@ nav {
 
 
 
+.faq-answer {
+  display: none;
+}
 
+.faq-answer.show-answer {
+  display: block;
+}
+
+.arrow:hover {
+  cursor: pointer;
+}
 
 
 
