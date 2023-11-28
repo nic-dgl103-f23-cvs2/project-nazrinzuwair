@@ -859,11 +859,21 @@ footer{
 
   /* RESERVATION PAGE CSS */
 
+  .faq{
+    width: 1170px;
+    margin: auto;
+  }
 
   .newsletterlink p{
     margin-bottom: 50px;
-    padding: 0 250px;
+    padding: 0 50px;
     line-height: 25px;
+    
+  }
+
+  .newsletter-body{
+    width: 1170px;
+    margin: auto;
   }
 
 }  
