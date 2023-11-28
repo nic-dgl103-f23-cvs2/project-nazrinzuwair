@@ -110,40 +110,32 @@
 
         <!-- Reservation form section -->
         <section class="reservation-form">
+          <h2>Arrive in Style: Transportation Reservation Details</h2>
             <form method="post" class="reserv-form">
                 <label for="fname">First Name</label>
                 <input type="text" id="fname" name="firstname" placeholder="First Name" required>
                 <input type="text" id="lname" name="lastname" placeholder="Last Name" required>
-
                 <label for="address">Home Address</label>
                 <input type="text" id="streetAddress" name="streetAddress" placeholder="Street Address" required>
                 <input type="text" id="city" name="city" placeholder="City" required>
                 <input type="text" id="state" name="state" placeholder="State / Province / Region" required>
                 <input type="text" id="zipCode" name="zipCode" placeholder="ZIP / Postal Code" required>
                 <input type="text" id="country" name="country" placeholder="Country" required>
-
                 <label for="phone">Contact Number</label>
                 <input type="tel" id="phone" name="phone" placeholder="Contact Number" required>
-
                 <label for="email">E-mail</label>
                 <input type="email" id="email" name="email" placeholder="Email Address" required>
-
                 <label for="destination">Destination*</label>
                 <input type="text" id="destination" name="destination" placeholder="Destination" required>
-                
                 <fieldset>
                     <legend>What type of transport do you require?</legend>
-                  
                     <input type="radio" id="shuttle" name="transportType" value="shuttle" required>
-                    <label for="shuttle">Shuttle Services</label>
-                  
+                    <label for="shuttle">Shuttle Services</label><br>
                     <input type="radio" id="limousine" name="transportType" value="limousine" required>
-                    <label for="limousine">Limousine Services</label>
-                  
+                    <label for="limousine">Limousine Services</label><br>
                     <input type="radio" id="tour" name="transportType" value="tour" required>
                     <label for="tour">Tour</label>
                 </fieldset>
-                  
                
                 <label for="numberguests">Please specify the number of guests in your party</label>
                 <select id="guests" name="guests">
@@ -159,33 +151,25 @@
                 <fieldset class="form-group">
                     <legend>Select Pick-Up Location:</legend>
                     <input type="radio" id="homeAddress" name="pickupLocation" value="homeAddress">
-                    <label for="homeAddress">My Home Address (provided above)</label>
-                
+                    <label for="homeAddress">My Home Address (provided above)</label><br>
                     <input type="radio" id="comoxAirport" name="pickupLocation" value="comoxAirport">
-                    <label for="comoxAirport">Comox Valley Airport (YQQ)</label>
-                
+                    <label for="comoxAirport">Comox Valley Airport (YQQ)</label><br>
                     <input type="radio" id="littleRiver" name="pickupLocation" value="littleRiver">
-                    <label for="littleRiver">Little River Ferry Terminal</label>
-                
+                    <label for="littleRiver">Little River Ferry Terminal</label><br>
                     <input type="radio" id="departureBay" name="pickupLocation" value="departureBay">
-                    <label for="departureBay">Departure Bay Ferry Terminal (Nanaimo)</label>
-                
+                    <label for="departureBay">Departure Bay Ferry Terminal (Nanaimo)</label><br>
                     <input type="radio" id="dukePoint" name="pickupLocation" value="dukePoint">
-                    <label for="dukePoint">Duke Point Ferry Terminal (Nanaimo)</label>
-                
+                    <label for="dukePoint">Duke Point Ferry Terminal (Nanaimo)</label><br>
                     <input type="radio" id="other" name="pickupLocation" value="other">
                     <label for="other">Other</label>
                 </fieldset>
                 
                 <fieldset class="form-group">
                     <legend>When do you need to be picked up?</legend>
-                  
                     <input type="radio" id="asap" name="pickupTime" value="ASAP">
                     <label for="asap">ASAP</label><br>
-                  
                     <input type="radio" id="selectDateTime" name="pickupTime" value="selectDateTime">
                     <label for="selectDateTime">Select time and date of travel</label><br>
-                  
                     <div id="dateTimeFields" style="display: none;">
                       <label for="pickupTime">What time do you need to be picked up?</label>
                       <input type="text" id="hours" name="hours" placeholder="HH" maxlength="2" size="2"> :
@@ -194,7 +178,6 @@
                         <option value="AM">AM</option>
                         <option value="PM">PM</option>
                       </select><br>
-                  
                       <label for="dateOfTravel">Your date of travel?</label>
                       <input type="text" id="day" name="day" placeholder="DD" maxlength="2" size="2">
                       <input type="text" id="month" name="month" placeholder="MM" maxlength="2" size="2">
@@ -215,50 +198,50 @@
         <section class="faq">
             <h2>Frequently Asked Questions (FAQ)</h2>
             <div class="faq-item" onclick="toggleAnswer(this)">
-                <h3 class="faq-question">
+                <h4 class="faq-question">
                   How do I make a reservation?
                   <span class="arrow">&#9660;</span>
-                </h3>
+                </h4>
                 <div class="faq-answer">
                   You can easily make a reservation by filling out our online form or by contacting our reservation department directly.
                 </div>
             </div>
               
             <div class="faq-item" onclick="toggleAnswer(this)">
-                <h3 class="faq-question">
+                <h4 class="faq-question">
                   Can I cancel my reservation?
                   <span class="arrow">&#9660;</span>
-                </h3>
+                </h4>
                 <div class="faq-answer">
                   Yes, you can cancel your reservation. Please refer to our cancellation policy or contact our support team for assistance.
                 </div>
               </div>
 
               <div class="faq-item" onclick="toggleAnswer(this)">
-                <h3 class="faq-question">
+                <h4 class="faq-question">
                   What payment methods do you accept?
                   <span class="arrow">&#9660;</span>
-                </h3>
+                </h4>
                 <div class="faq-answer">
                   We accept payments via cash, debit cards, and major credit cards like Visa and Mastercard.
                 </div>
               </div>
               
               <div class="faq-item" onclick="toggleAnswer(this)">
-                <h3 class="faq-question">
+                <h4 class="faq-question">
                   Is there a minimum notice required for reservations?
                   <span class="arrow">&#9660;</span>
-                </h3>
+                </h4>
                 <div class="faq-answer">
                   Yes, we require a minimum notice of 24 hours for reservations. For immediate service, please contact our team directly.
                 </div>
               </div>
 
               <div class="faq-item" onclick="toggleAnswer(this)">
-                <h3 class="faq-question">
+                <h4 class="faq-question">
                   Can I modify my reservation details?
                   <span class="arrow">&#9660;</span>
-                </h3>
+                </h4>
                 <div class="faq-answer">
                   Yes, you can modify your reservation details by contacting our reservation department. Certain conditions may apply.
                 </div>
