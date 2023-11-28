@@ -437,6 +437,7 @@ nav {
 /* RESERVATION HERO SECTION CODING BEGINS HERE */
 .reservation-hero{
     background: url(images/reservation-banner.jpg);
+    object-fit: cover;
     margin-top: -42px;
     background-size: cover;
     background-position: center;
@@ -488,6 +489,7 @@ nav {
   height: 50px;
   border: 3px solid #283618;
   padding: 5px;
+  object-fit:cover;
 }
 
 
@@ -887,7 +889,7 @@ footer{
   }
 
 
-  /* RESERVATION PAGE CSS */
+  /* RESERVATION FORM CSS */
 
 .form-main{
   display: flex;
@@ -902,16 +904,16 @@ footer{
   margin: 0 40px;
 }
 
-  .reservation-form{
+.reservation-form{
     width: 1170px;
     margin: auto;
   }
 
-  .reserv-form{
+.reserv-form{
     padding: 10px 0 10px 40px;
   } 
 
-  .wrapper-button{
+.wrapper-button{
     margin: 30px 160px 0 160px;
   }
 
@@ -941,9 +943,6 @@ footer{
     margin-top: 60px;
   }
 
-  .reservation-benefits p{
-    margin: 20px 70px;
-  }
  
   .reservation-cards-main{
     display: flex;
@@ -955,5 +954,22 @@ footer{
     width: calc(33.33% - 20px);
     margin: 10px; 
   }
+
+/* RESERVATION ABOUT SECTION MEDIA QUERIES BEGINS HERE */
+.reservation-about{
+  width: 1170px;
+  margin: auto;
+}
+
+.reservation-about h2{
+  margin: 50px 200px;
+  line-height: 35px;
+}
+
+.reserv-paragraph span{
+  display: inline;
+  text-align: left;
+  margin: 0;
+}
 
 }  
