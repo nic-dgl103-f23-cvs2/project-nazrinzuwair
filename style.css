@@ -673,13 +673,95 @@ input[type="radio"]{
 }
 
 
+/* RESERVATION SERVICE CODINGS BEGINS HERE */
+
+.reservation-service h2{
+  margin: 40px 0;
+}
+
+.reservation-service p{
+  text-align: center;
+  margin: 0 40px 40px 40px;
+}
+
+.table-wrapper{
+  margin: 20px;
+}
+
+table {
+  width: 100%;
+  
+}
+
+td,
+th {
+  padding:12px;
+  font-size: 1.5rem;
+  text-align: center;
+  
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #283618;
+  color: white;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+  background-color: #ddd;
+}
+
+td.merge {
+  text-align: center;
+  font-style: italic;
+}
+
+tfoot {
+  font-size: 0.8em;
+  font-style: italic;
+  text-align: center;
+  background-color: #c5c5c5;
+}
+
+tfoot {
+  font-size: 0.8em;
+  font-style: italic;
+  text-align: center;
+  background-color: #c5c5c5;
+  
+}
 
 
+/* ----------------RATE PAGE CSS BEGINS HERE---------------------------- */
 
+/* HERO SECTION CODING BEGINS HERE */
 
+.rates-hero{
+  background: url(images/rates-banner.jpg);
+  object-fit: cover;
+  margin-top: -42px;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+}
 
+.rates-hero h1{
+padding-top: 20vh;
+color: #FFFFFF;
+}
 
+/*  */
 
+.pricing-structure h2{
+  margin:40px 0;
+}
 
 
 
@@ -971,5 +1053,31 @@ footer{
   text-align: left;
   margin: 0;
 }
+
+.reservation-service{
+  width: 1170px;
+  margin: auto;
+}
+
+.table-wrapper{
+  margin: 0 150px;
+}
+
+/* RATE SECTION MEDIA QUERIES BEGINS HERE */
+/* .pricing-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 -10px; 
+}
+
+.pricing-cell {
+  width: calc(25% - 20px); 
+  margin: 10px; 
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+} */
 
 }  
