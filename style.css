@@ -1197,8 +1197,19 @@ footer{
   padding: 0 150px 10px 150px;
 }
 
+/* reserve-seat call-to-action media queries */
+.reserve-seat-body{
+  width: 1170px;
+  margin: auto;
+}
 
+.reserve-seat-body{
+  padding: 0 100px;
+}
 
+.reserve-seat-body p{
+  line-height: 30px;
+}
 
 }
 
