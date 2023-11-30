@@ -785,7 +785,7 @@ color: #FFFFFF;
 }
 
 .pricing-tables h3{
-  margin: 50px 20px 30px 20px;
+  margin: 50px 20px 0px 20px;
   line-height: 25px;
   font-size: 1.9rem;
   color: #283618;
@@ -1154,20 +1154,54 @@ footer{
 }
 
 /* RATE SECTION MEDIA QUERIES BEGINS HERE */
-/* .pricing-row {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 0 -10px; 
+
+/* Hero section coding begins here */
+.rates-hero h2{
+  width: 1170px;
+  margin: auto;
 }
 
-.pricing-cell {
-  width: calc(25% - 20px); 
-  margin: 10px; 
-  padding: 15px;
-  background-color: #f9f9f9;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-} */
+/*  Pricing details section codings begins */
+.pricing-structure{
+  width: 1170px;
+  margin: auto;
+}
 
-}  
+.pricing-structure ul{
+  margin: 0 80px 40px 80px;
+}
+
+.pricing-structure li{
+  margin-bottom: 20px;
+}
+
+
+/* Rate of travel packages begins here */
+
+.pricing-tables{
+  width: 1170px;
+  margin: auto;
+}
+
+.pricing-data{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+}
+
+.pricing-cell{
+  width: 300px;
+}
+
+.price-heading{
+  padding: 0 150px 10px 150px;
+}
+
+
+
+
+}
+
+
+
+ 
