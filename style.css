@@ -864,8 +864,20 @@ color: #FFFFFF;
   position: relative;
   overflow: hidden;
   width: 100%;
-  height: 500px; 
+  height: 350px;
 }
+
+.service-infor{
+  margin: 0 20px;
+}
+
+.service-infor p{
+  text-align: center;
+  margin: 40px 5px;
+}
+
+
+
 
 /* Large devices (desktops, 1200px and up)  */
 
