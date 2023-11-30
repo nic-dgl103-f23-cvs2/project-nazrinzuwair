@@ -851,6 +851,21 @@ color: #FFFFFF;
 }
 
 
+/* SERVICE PAGE CODING BEGINS HERE */
+.banner-video {
+  margin-top: -42px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.service-hero {
+  margin-top: -42px;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 500px; 
+}
 
 /* Large devices (desktops, 1200px and up)  */
 
@@ -860,6 +875,7 @@ color: #FFFFFF;
     margin: auto;
   }
 
+  
   /* MEDIA QUERIES FOR NAVIGATION */
   nav .toggle {
     display: none;
