@@ -468,7 +468,7 @@ nav {
 
 /* RESERVATION BENEFITS BEGINS HERE */
 .reservation-benefits{
-  margin-top: 50px;
+  margin: 50px 0;
 }
 
 .reservation-heading p{
@@ -776,7 +776,6 @@ color: #FFFFFF;
 
 .pricing-structure p{
   margin:30px 0 35px 0;
-  /* text-align: c; */
 }
 
 /* PRICING TABLES SECTION CODING BEGINS HERE */
@@ -825,6 +824,31 @@ color: #FFFFFF;
 }
 
 
+/* RESERVE-SEAT CALL-T0-ACTION BUTTON SECTION CODING BEGINS HERE */
+.reserve-seat{
+  margin-top: 50px;
+  padding:60px 0;
+  background-color: #283618;
+  text-align: center;
+}
+
+.reserve-seat h2{
+  color: #ffffff;
+}
+
+.reserve-seat p{
+  margin: 40px 30px 50px 30px;
+  color: #ffffff;
+}
+
+.reserve-seat a{
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: #BC6C25;
+  padding: 13.5px 20px;
+  border-radius: 5px;
+}
 
 
 
@@ -1067,6 +1091,9 @@ footer{
     margin: auto;
   }
 
+  .faq h2{
+    margin-top: 60px;
+  }
   .newsletterlink p{
     margin-bottom: 50px;
     padding: 0 50px;
