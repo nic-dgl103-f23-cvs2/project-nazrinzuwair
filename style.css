@@ -137,6 +137,76 @@ nav {
       background-color: #BC6C25;
     }
 
+ /* -------FOOTER CODING BEGINS HERE-------- */
+.footer-section{
+  background-color: rgb(226, 225, 225);
+  padding: 0 15px 0 10px;
+  text-align: center;
+}
+
+.footer-section p{
+  font-size: 1.6rem;
+  padding: 0 30px 0 30px;
+}
+
+.footer-1 h3{
+  margin-top: 0;
+  padding-top: 40px;
+}
+
+
+.footer-1 .social-media i{
+  font-size: 2.5rem;
+  margin-right: 10px;
+}
+
+.footer-2 h3{
+  margin-top: 0;
+  padding-top: 40px;
+}
+
+.footer-2 li a{
+  color: #000;
+  text-decoration: none;
+   list-style: none;
+  line-height: 28px;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.footer-2 ul li{
+  list-style: none;
+  margin-right: 40px;
+}
+
+.footer-3 h3{
+  margin-top: 0;
+  padding-top: 10px;
+}
+
+.footer-3 p{
+  padding: 10px 30px 0 30px;
+}
+
+.footer-3 li{
+  list-style: none;
+  line-height: 28px;
+  font-size: 1.6rem;
+  text-align: center;
+  margin-right: 20px;
+}
+
+.footer-below p{
+  border-top: 2px solid #283618;
+  font-size: 1.4rem;
+  text-align: center;
+  color: #283618;
+  margin: 20px 20px 0px 20px;
+  padding:15px 0;
+}
+   
+
+/* ----------HOME PAGE CODINGS----------- */
 
   /*----------HERO SECTION BEGINS HERE----------  */
   .hero{
@@ -181,7 +251,7 @@ nav {
   }
 
 
-/* ----------Services SECTION CODING------------- */
+/* ----------SERVICES SECTION CODING------------- */
 
 .services{
     margin-top: 55px;
@@ -262,6 +332,7 @@ nav {
 .about-text p{
     padding: 15px 38px;
 }
+
 
 /* ---------BENEFITS SECTION CODING BEGINS HERE------------ */
 
@@ -352,9 +423,6 @@ nav {
     transition: background-color 0.3s ease-in-out;
 }
 
-
-
-
 .testomonial-section{
   padding: 40px 40px;
   background-image: url(images/travel.jpg);
@@ -380,6 +448,7 @@ nav {
   opacity: 0.8;
   animation: grow 1s ease-in-out infinite alternate;  
 }
+
 /* ----------CALL-TO-ACTION CODING BEGINS HERE----------- */
 
 .call-to-action{
@@ -416,73 +485,6 @@ nav {
 
 
 
-/* -------FOOTER CODING BEGINS HERE-------- */
-.footer-section{
-  background-color: rgb(226, 225, 225);
-  padding: 0 15px 0 10px;
-  text-align: center;
-}
-
-.footer-section p{
-  font-size: 1.6rem;
-  padding: 0 30px 0 30px;
-}
-
-.footer-1 h3{
-  margin-top: 0;
-  padding-top: 40px;
-}
-
-
-.footer-1 .social-media i{
-  font-size: 2.5rem;
-  margin-right: 10px;
-}
-
-.footer-2 h3{
-  margin-top: 0;
-  padding-top: 40px;
-}
-
-.footer-2 li a{
-  color: #000;
-  text-decoration: none;
-   list-style: none;
-  line-height: 28px;
-  font-size: 1.6rem;
-  text-align: center;
-}
-
-.footer-2 ul li{
-  list-style: none;
-  margin-right: 40px;
-}
-
-.footer-3 h3{
-  margin-top: 0;
-  padding-top: 10px;
-}
-
-.footer-3 p{
-  padding: 10px 30px 0 30px;
-}
-
-.footer-3 li{
-  list-style: none;
-  line-height: 28px;
-  font-size: 1.6rem;
-  text-align: center;
-  margin-right: 20px;
-}
-
-.footer-below p{
-  border-top: 2px solid #283618;
-  font-size: 1.4rem;
-  text-align: center;
-  color: #283618;
-  margin: 20px 20px 0px 20px;
-  padding:15px 0;
-}
 
 
 /* ----------------RESERVATION PAGE CSS BEGINS HERE---------------------------- */
@@ -922,7 +924,9 @@ color: #FFFFFF;
 }
 
 
-/* SERVICE PAGE CODING BEGINS HERE */
+/* -------------SERVICE PAGE CODING BEGINS HERE --------------- */
+
+/* HERO SECTION CODING BEGINS HERE */
 .banner-video {
   margin-top: -42px;
   width: 100%;
@@ -938,7 +942,7 @@ color: #FFFFFF;
   height: 350px;
 }
 
-/* service-info section coding begins ehre */
+/* SERVICE-INFO SECTION CODING BEGINS HERE */
 
 .service-infor{
   margin: 0 20px;
@@ -953,7 +957,7 @@ color: #FFFFFF;
   margin-top: 5px;
 }
 
-/* limousine service coding begins here */
+/* LIMOUSINE SERVICE, SHUTTLE SERVICE, WINE SERVICE SECTION CODINGS*/
 
 .limousine-service,
 .shuttle-service,
@@ -1014,7 +1018,7 @@ color: #FFFFFF;
 }
 
 
-/* CALL-TO-ACTION BUTTON (BOOK NOW)  */
+/* CALL-TO-ACTION BUTTON (BOOK NOW) CODINGS */
 .book-now{
   margin-top: 70px;
   padding:60px 0;
@@ -1042,7 +1046,9 @@ color: #FFFFFF;
 }
 
 
-/* ABOUT PAGE SECTION CODING BEGINS HERE */
+/* -----------ABOUT PAGE SECTION CODING BEGINS HERE -----------*/
+
+/* HERO SECTION CODING BEGINS HERE */
 .about-hero{
   background: url(images/about-main.jpg);
   object-fit: cover;
@@ -1058,6 +1064,7 @@ margin: 0 30px;
 color: #ffffff;
 } 
 
+/* ABOUT INFORMATION SECTION CODING BEGINS HERE */
 .about-info{
   margin-top: 50px;
   text-align: center;
@@ -1077,6 +1084,7 @@ color: #ffffff;
   margin: 0;
 }
 
+/* HISTORY SECTION CODING BEGINS HERE */
 .history img{
   width: 300px;
   height: 200px;
@@ -1097,7 +1105,7 @@ color: #ffffff;
   margin: 20px 40px;
 }
 
-
+/* PARTNERS SECTION CODINGS BEGINS HERE */
 .partners{
   margin: 40px 0 60px 0;
   text-align: center;
@@ -1116,7 +1124,7 @@ color: #ffffff;
 }
 
 
-/* General anchor hover effect */
+/* GENERAL ANCHOR HOVER EFFECTS */
 .newsletterlink a:hover,
 .service-anchor:hover,
 .testomonial a:hover,
@@ -1165,7 +1173,7 @@ color: #ffffff;
     
   }
 
-  /* MEDIA QUERIES FOR HERO SECTION */
+  /* MEDIA QUERIES FOR HERO SECTION OF HOME PAGE */
 
   .hero-wrapper-width {
     width: 1170px;
@@ -1199,7 +1207,7 @@ color: #ffffff;
   } 
   
 
-  /* MEDIA QUERIES FOR SERVICES SECTION */
+  /* MEDIA QUERIES FOR SERVICES SECTION  OF HOME PAGE*/
   .services-wrapper-width{
     width: 1170px;
     margin: auto;
@@ -1247,7 +1255,7 @@ color: #ffffff;
     line-height: 18px;
   }
 
-  /* MEDIA QUERIES FOR ABOUT SECTION */
+  /* MEDIA QUERIES FOR ABOUT SECTION OF HOME PAGE*/
   .about-content{
     margin-top: 60px;
     display: flex;
@@ -1263,7 +1271,7 @@ color: #ffffff;
     text-align: justify;
   }
 
-  /* MEDIA QUERIES FOR BENEFITS SECTION */
+  /* MEDIA QUERIES FOR BENEFITS SECTION OF HOME PAGE*/
 
   .benefits h2{
     margin-top: 80px;
@@ -1284,7 +1292,7 @@ color: #ffffff;
   }
 
 
-  /* MEDIA QUERIES FOR TESTOMONIAL SECTION */
+  /* MEDIA QUERIES FOR TESTOMONIAL SECTION OF HOME PAGE */
   .testomonial-section{
     width: 1170px;
     margin: 50px auto;
@@ -1337,7 +1345,7 @@ footer{
   }
 
 
-  /* RESERVATION FORM CSS */
+  /* MEDIA QUERIES FOR RESERVATION PAGE */
 
 .form-main{
   display: flex;
@@ -1406,7 +1414,6 @@ footer{
     margin: 10px; 
   }
 
-/* RESERVATION ABOUT SECTION MEDIA QUERIES BEGINS HERE */
 .reservation-about{
   width: 1170px;
   margin: auto;
@@ -1468,8 +1475,6 @@ footer{
   justify-content: center; 
 }
 
-
-
 .pricing-cell{
   width: 300px;
 }
@@ -1489,7 +1494,7 @@ footer{
   line-height: 30px;
 } 
 
-/* SERVICE PAGE CODING BEGINS HERE */
+/* MEDIA QUERIES FOR SERVICE PAGE BEGINS HERE */
 .service-hero {
   height: 450px;
 }
@@ -1585,7 +1590,7 @@ footer{
 }
 
 
-/* ABOUT SECTION CODING */
+/* MEDIA QUERIES FOR ABOUT SECTION BEGINS HERE */
 .about-hero h1{
   width: 1170px;
   margin: auto;
