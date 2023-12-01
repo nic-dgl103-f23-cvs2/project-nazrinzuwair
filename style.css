@@ -964,6 +964,73 @@ color: #FFFFFF;
 }
 
 
+/* ABOUT PAGE SECTION CODING BEGINS HERE */
+.about-hero{
+  background: url(images/about-main.jpg);
+  object-fit: cover;
+  margin-top: -42px;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+}
+
+.about-hero h1{
+padding-top: 20vh;
+margin: 0 30px;
+color: #ffffff;
+} 
+
+.about-info{
+  margin-top: 50px;
+  text-align: center;
+}
+
+.about-info p{
+  margin: 20px 40px;
+}
+
+.about-info span{
+  display: block;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.about-info .owner{
+  margin: 0;
+}
+
+
+.history{
+  margin-top: 50px;
+  text-align: center;
+}
+
+.history h2{
+  margin-top: 30px;
+}
+
+.history p{
+  margin: 20px 40px;
+}
+
+
+.partners{
+  margin: 40px 0 60px 0;
+  text-align: center;
+}
+
+.partners img{
+  margin-top: 30px;
+  width: 150px;
+  height: 150px;
+  border: 2px solid #283618;
+  padding: 5px;
+}
+
+.partners h3{
+  font-size: 1.6rem;
+}
+
 /* Large devices (desktops, 1200px and up)  */
 
 @media only screen and (min-width: 1200px) {
