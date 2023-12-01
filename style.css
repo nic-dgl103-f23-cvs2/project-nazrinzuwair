@@ -126,6 +126,17 @@ nav {
       
     }
   
+   .reservation-anchor,
+   .book-anchor{
+      transition: background-color 0.3s ease-in-out; 
+    }
+
+
+   .reservation-anchor:hover,
+   .book-anchor:hover {
+      background-color: #BC6C25;
+    }
+
 
   /*----------HERO SECTION BEGINS HERE----------  */
   .hero{
@@ -153,6 +164,13 @@ nav {
     padding: 13.5px 20px;
     border-radius: 5px;
     text-decoration: none;
+    transition: transform 0.3s ease-in-out;
+    display: inline-block;
+  }
+
+  .hero-text a:hover{
+    transform: translateY(-8px);
+    
   }
 
   .hero-image img{
@@ -188,12 +206,19 @@ nav {
 .services-image{
     margin-top: 35px; 
     margin-bottom: 50px;
+    
 } 
+
+.text-boxes:hover {
+  box-shadow: 0 0 20px #283618; 
+}
+
 
 .text-boxes img{
     width: 260px;
     height: 210px;
     object-fit: cover;
+    transition: box-shadow 0.3s ease-in-out; 
 }
 
 
@@ -206,7 +231,7 @@ nav {
     margin: 25px 60px;
 }  
 
-.services .service-anchor{
+.service-anchor{
     font-size: 1.2rem;
     color: #FFFFFF;
     text-transform: uppercase;
@@ -214,7 +239,9 @@ nav {
     padding: 13.5px 20px;
     border-radius: 5px;
     text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
 }
+
 
 
 /* -------- ABOUT SECTION CODING--------- */
@@ -250,12 +277,20 @@ nav {
 .benefits-cards{
     margin: 35px 20px 50px 20px;
     
+    
 }
 .benefits-boxes{
     background-color: antiquewhite;
     padding: 5px 5px;
     margin: 20px 50px 20px 50px;
+    transition: border-color 0.3s ease-in-out; 
+    border: 2px solid transparent; 
 }
+
+.benefits-boxes:hover {
+  border-color: #283618; 
+}
+
 .benefits-boxes img{
     width: 100px;
     height: 100px;
@@ -314,7 +349,10 @@ nav {
     padding: 13.5px 20px;
     border-radius: 5px;
     text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
 }
+
+
 
 
 .testomonial-section{
@@ -324,11 +362,23 @@ nav {
   
 }
 
+@keyframes grow {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  100% {
+    transform: scale(1.05); 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6); 
+  }
+}
+
+
 .testomonial-card{
   background-color: rgb(253, 253, 253);
   margin:30px 0;
   opacity: 0.8;
-  
+  animation: grow 1s ease-in-out infinite alternate;  
 }
 /* ----------CALL-TO-ACTION CODING BEGINS HERE----------- */
 
@@ -361,7 +411,10 @@ nav {
   padding: 13.5px 40px;
   border-radius: 5px;
   text-decoration: none;
+  transition: color 0.3s ease-in-out;
 }
+
+
 
 /* -------FOOTER CODING BEGINS HERE-------- */
 .footer-section{
@@ -482,6 +535,11 @@ nav {
   margin: 0 45px 20px 45px;
   display: flex;
   flex-direction: row;
+  transition: transform 0.5s ease-in-out; 
+}
+
+.reserv-cards:hover {
+  transform: translateY(-10px);
 }
 
 .reserv-cards img{
@@ -490,6 +548,11 @@ nav {
   border: 3px solid #283618;
   padding: 5px;
   object-fit:cover;
+  transition: transform 0.5s ease-in-out;
+}
+
+.reserv-cards:hover img{
+  transform: rotate(360deg);
 }
 
 
@@ -666,10 +729,11 @@ input[type="radio"]{
 .newsletterlink a{
   text-transform: uppercase;
   text-decoration: none;
-  color: #FFFFFF;
-  background-color: #BC6C25;
+  color:#000;
+  background-color: #ffffff;
   padding: 13.5px 30px;
   border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
 }
 
 
@@ -715,7 +779,7 @@ tr:nth-child(even) {
 }
 
 tbody tr:hover {
-  background-color: #ddd;
+  background-color: #b0c598;
 }
 
 td.merge {
@@ -793,6 +857,7 @@ color: #FFFFFF;
 
 .pricing-data{
   margin-top: 50px;
+  
 }
 
 
@@ -800,6 +865,11 @@ color: #FFFFFF;
   margin: 0 15px 30px 15px;
   border: 2px solid #7b7c7b;
   padding-bottom: 20px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.pricing-cell:hover {
+  transform: translateY(-10px);
 }
 
 .pricing-cell h3{
@@ -844,10 +914,11 @@ color: #FFFFFF;
 .reserve-seat a{
   text-transform: uppercase;
   text-decoration: none;
-  color: #FFFFFF;
-  background-color: #BC6C25;
+  color: #000;
+  background-color: #FFFFFF;
   padding: 13.5px 20px;
   border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
 }
 
 
@@ -876,6 +947,10 @@ color: #FFFFFF;
 .service-infor p{
   text-align: center;
   margin: 40px 5px 0 5px;
+}
+
+.service-infor h1{
+  margin-top: 5px;
 }
 
 /* limousine service coding begins here */
@@ -935,7 +1010,9 @@ color: #FFFFFF;
   background-color: #283618;
   padding: 13.5px 20px;
   border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
 }
+
 
 /* CALL-TO-ACTION BUTTON (BOOK NOW)  */
 .book-now{
@@ -957,10 +1034,11 @@ color: #FFFFFF;
 .book-now a{
   text-transform: uppercase;
   text-decoration: none;
-  color: #FFFFFF;
-  background-color: #BC6C25;
+  color: #000000;
+  background-color: #ffffff;
   padding: 13.5px 30px;
   border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
 }
 
 
@@ -999,6 +1077,12 @@ color: #ffffff;
   margin: 0;
 }
 
+.history img{
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
 
 .history{
   margin-top: 50px;
@@ -1029,6 +1113,21 @@ color: #ffffff;
 
 .partners h3{
   font-size: 1.6rem;
+}
+
+
+/* General anchor hover effect */
+.newsletterlink a:hover,
+.service-anchor:hover,
+.testomonial a:hover,
+.call-to-action a:hover,
+.reserve-seat a:hover,
+.book-now a:hover,
+.shuttle-service a:hover
+ {
+  background-color: #BC6C25; 
+  color: #000;
+  font-weight: bold;
 }
 
 /* Large devices (desktops, 1200px and up)  */
@@ -1369,6 +1468,8 @@ footer{
   justify-content: center; 
 }
 
+
+
 .pricing-cell{
   width: 300px;
 }
@@ -1481,6 +1582,60 @@ footer{
 
 .book-now-body p{
   margin-bottom: 50px;
+}
+
+
+/* ABOUT SECTION CODING */
+.about-hero h1{
+  width: 1170px;
+  margin: auto;
+}
+
+
+.about-info{
+  width: 1170px;
+  margin: auto;
+}
+
+.about-info h2{
+  margin-top: 50px;
+}
+
+.about-info p{
+  margin:40px 30px 0 30px;
+}
+
+
+.history{
+  width: 1170px;
+  margin: 50px auto 50px auto;
+  display: flex;
+}
+
+.history img{
+  width: 500px;
+  height: 400px;
+  margin-left: 50px;
+}
+
+.history-info{
+  margin: 50px 40px 0 40px;
+  margin-right: 100px;
+}
+
+.partners{
+  width: 1170px;
+  margin: auto;
+}
+
+.partners-group{
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 60px 0;
+}
+
+.partners-content{
+  margin: 0 50px;
 }
 
 }
