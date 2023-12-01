@@ -215,6 +215,9 @@ nav {
     text-align: center;
   }    
 
+  .hero-text{
+    padding-bottom: 50px;
+  }
   .hero-text h1{
     text-align: center;
     padding: 10px 15px 10px 15px;
