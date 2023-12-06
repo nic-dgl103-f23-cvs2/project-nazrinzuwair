@@ -110,7 +110,7 @@
                 <input type="text" id="fname" name="firstname" placeholder="First Name" required>
                 <label for="lname">Last Name</label>
                 <input type="text" id="lname" name="lastname" placeholder="Last Name" required>
-                <label for="address">Home Address</label>
+                <label for="streetAddress">Home Address</label>
                 <input type="text" id="streetAddress" name="streetAddress" placeholder="Street Address" required>
                 <label for="city">City</label>
                 <input type="text" id="city" name="city" placeholder="City" required>
@@ -124,7 +124,7 @@
                 <input type="tel" id="phone" name="phone" placeholder="Contact Number" required>
                 <label for="email">E-mail</label>
                 <input type="email" id="email" name="email" placeholder="Email Address" required>
-                <label for="destination">Destination*</label>
+                <label for="destination">Destination</label>
                 <input type="text" id="destination" name="destination" placeholder="Destination" required>
                 <fieldset>
                     <legend>What type of transport do you require?</legend>
@@ -136,7 +136,7 @@
                     <label for="tour">Tour</label>
                 </fieldset>
                
-                <label for="numberguests">Please specify the number of guests in your party</label>
+                <label for="guests">Please specify the number of guests in your party</label>
                 <select id="guests" name="guests">
                   <option value="1">1 Guest</option>
                   <option value="2">2 Guests</option>
@@ -170,14 +170,14 @@
                     <input type="radio" id="selectDateTime" name="pickupTime" value="selectDateTime">
                     <label for="selectDateTime">Select time and date of travel</label><br>
                     <div id="dateTimeFields" style="display: none;">
-                      <label for="pickupTime">What time do you need to be picked up?</label>
+                      <label for="hours">What time do you need to be picked up?</label>
                       <input type="text" id="hours" name="hours" placeholder="HH" maxlength="2" size="2"> :
                       <input type="text" id="minutes" name="minutes" placeholder="MM" maxlength="2" size="2">
                       <select id="ampm" name="ampm">
                         <option value="AM">AM</option>
                         <option value="PM">PM</option>
                       </select><br>
-                      <label for="dateOfTravel">Your date of travel?</label>
+                      <label for="day">Your date of travel?</label>
                       <input type="text" id="day" name="day" placeholder="DD" maxlength="2" size="2">
                       <input type="text" id="month" name="month" placeholder="MM" maxlength="2" size="2">
                       <input type="text" id="year" name="year" placeholder="YYYY" maxlength="4" size="4">
