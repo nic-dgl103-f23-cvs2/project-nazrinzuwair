@@ -195,6 +195,20 @@ nav {
   text-align: center;
   margin-right: 20px;
 }
+address{
+  font-style: normal;
+  margin-bottom: 40px;
+}
+
+address a,
+address p{
+  color: #000;
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 28px;
+  text-decoration: none;
+  margin-bottom: 0;
+}
 
 .footer-below p{
   border-top: 2px solid #283618;
