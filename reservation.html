@@ -169,20 +169,7 @@
                     <label for="asap">ASAP</label><br>
                     <input type="radio" id="selectDateTime" name="pickupTime" value="selectDateTime">
                     <label for="selectDateTime">Select time and date of travel</label><br>
-                    <div id="dateTimeFields" style="display: none;">
-                      <label for="hours">What time do you need to be picked up?</label>
-                      <input type="text" id="hours" name="hours" placeholder="HH" maxlength="2" size="2"> :
-                      <input type="text" id="minutes" name="minutes" placeholder="MM" maxlength="2" size="2">
-                      <select id="ampm" name="ampm">
-                        <option value="AM">AM</option>
-                        <option value="PM">PM</option>
-                      </select><br>
-                      <label for="day">Your date of travel?</label>
-                      <input type="text" id="day" name="day" placeholder="DD" maxlength="2" size="2">
-                      <input type="text" id="month" name="month" placeholder="MM" maxlength="2" size="2">
-                      <input type="text" id="year" name="year" placeholder="YYYY" maxlength="4" size="4">
-                    </div>
-                  </fieldset>
+                </fieldset>
 
                   <label for="specialRequests">Additional Notes:</label>
                   <textarea id="specialRequests" placeholder="Enter any special requirements or details"></textarea>
@@ -263,50 +250,45 @@
         <!-- FAQs section coding begins here -->
         <section class="faq">
             <h2>Frequently Asked Questions (FAQ)</h2>
-            <div class="faq-item" onclick="toggleAnswer(this)">
+            <div class="faq-item">
                 <h4 class="faq-question">
                   How do I make a reservation?
-                  <span class="arrow">&#9660;</span>
                 </h4>
                 <div class="faq-answer">
                   <p>You can easily make a reservation by filling out our online form or by contacting our reservation department directly.</p>
                 </div>
             </div>
               
-            <div class="faq-item" onclick="toggleAnswer(this)">
+            <div class="faq-item">
                 <h4 class="faq-question">
                   Can I cancel my reservation?
-                  <span class="arrow">&#9660;</span>
                 </h4>
                 <div class="faq-answer">
                  <p>Yes, you can cancel your reservation. Please refer to our cancellation policy or contact our support team for assistance.</p> 
                 </div>
               </div>
 
-              <div class="faq-item" onclick="toggleAnswer(this)">
+              <div class="faq-item">
                 <h4 class="faq-question">
                   What payment methods do you accept?
-                  <span class="arrow">&#9660;</span>
                 </h4>
                 <div class="faq-answer">
                 <p>  We accept payments via cash, debit cards, and major credit cards like Visa and Mastercard. </p> 
                 </div>
               </div>
               
-              <div class="faq-item" onclick="toggleAnswer(this)">
+              <div class="faq-item">
                 <h4 class="faq-question">
                   Is there a minimum notice required for reservations?
-                  <span class="arrow">&#9660;</span>
                 </h4>
                 <div class="faq-answer">
                   <p>Yes, we require a minimum notice of 24 hours for reservations. For immediate service, please contact our team directly.</p> 
                 </div>
               </div>
 
-              <div class="faq-item" onclick="toggleAnswer(this)">
+              <div class="faq-item">
                 <h4 class="faq-question">
                   Can I modify my reservation details?
-                  <span class="arrow">&#9660;</span>
                 </h4>
                 <div class="faq-answer">
                   <p>Yes, you can modify your reservation details by contacting our reservation department. Certain conditions may apply.</p>
@@ -376,17 +358,6 @@
             var element = document.getElementById("nav-items");
             element.classList.toggle("show-items");
         }
-
-
-        document.getElementById('selectDateTime').addEventListener('change', function() {
-        var dateTimeFields = document.getElementById('dateTimeFields');
-        dateTimeFields.style.display = this.checked ? 'block' : 'none';
-        });
-
-        function toggleAnswer(faqItem) {
-            const answer = faqItem.querySelector('.faq-answer');
-            answer.classList.toggle('show-answer');
-            }
     </script>
 
     
