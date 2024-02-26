@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ambassador Transportation</title>
+    <link rel="stylesheet" href="style.css">
+     <!-- Linking the font-awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+     <!-- Linking the google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Lato:wght@700&family=Poppins&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Header Section Coding Begins Here -->
+    <header>
+        <div class="wrapper-width">
+            <img src="images/ambassador-logo.jpg" alt="Ambassador Logo">
+            <nav>
+                <div class="nav-anchor">
+                    <a href="reservation.html">Make a reservation</a>
+                    <a href="">Book a tour</a>
+                </div>
+                <a class="toggle" onclick="showNav()"><i class="fa fa-bars" aria-hidden="true"></i></a>
+                
+                <div class="navigation-elements">
+                <ul id="nav-items" class="show-items"> 
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="reservation.html">Reservation</a></li>
+                    <li><a href="rates.html">Rates</a></li>
+                    <li><a href="service.html">Services</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="">News</a></li>
+                    <li><a href="reservation.html" class="reservation-anchor">Make a reservation</a></li>
+                    <li><a href="" class="book-anchor">Book a tour</a></li>
+                </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+         <!-- Hero section coding begins here -->
+        <section class="reservation-hero">
+            <h1>Book Your Ride Now</h1>
+        </section>
+
+        <!-- Reservation information section -->
+        <section class="reservation-about">
+            <h2>Thank you for choosing Ambassador for your transportation needs in the Comox Valley </h2>
+            <p class="reserv-paragraph">
+                <span>Please complete the following form accurately. This information will be forwarded to our reservation department, and you will receive a confirmation email for your records.</span>
+                <span>Payment can be made to your driver upon pickup. We accept cash, debit, and Visa/Mastercard.</span>
+                <span>For any inquiries, please call us at 250-339-5252 (LOCAL) or 1-877-339-5252 (OUT OF AREA).</span>
+                <span class="bold">Please note: While we regularly check our reservations every 12 hours, a MINIMUM notice of 24 hours is required. If you require immediate service, kindly call us, and we will do our best to accommodate your request. We will reach out to you to confirm any reservation.</span>
+            </p>
+        </section>
+
+        <!-- reservation-section coding begins here -->
+        <section class="reservation-service">
+          <h2>Service Overview</h2>
+          <p>Explore our suite of tailored services designed to redefine travel. Review our offerings in the table below, each crafted for seamless and memorable experiences. Find the perfect fit for your travel needs before you proceed with your reservation.</p>
+          <div class="table-wrapper">
+            <table class="resev-table">
+              <thead>
+                <tr>
+                  <th>Service Type</th>
+                  <th>Description</th>
+                  <th>Additional Services</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Wine Tours</td>
+                  <td>Guided tours to local vineyards</td>
+                  <td>Wine tasting, scenic vistas, Exclusive wine selections</td>
+                </tr>
+                <tr>
+                  <td>Limousine Services</td>
+                  <td>Luxury travel with professional chauffeurs</td>
+                  <td>VIP treatment, stylish transportation, Professional chauffeurs</td>
+                </tr>
+                <tr>
+                  <td>Airport Shuttle</td>
+                  <td>Reliable airport transfers</td>
+                  <td>Efficient, stress-free travel, Shuttle service to/from the airport</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <td colspan="3">Service details last updated on 28th November 2023</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div>      
+          <!-- Heading, paragraph and the rest of the contents are Written by ChatGPT -->     
+        </section>
+
+       
+
+        <!-- Reservation form section codings here -->
+        <section class="reservation-form">
+          <h2>Arrive in Style: Transportation Reservation Details</h2>
+          <div class="form-main">
+            <div class="form-info">
+              <form method="post" class="reserv-form">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="First Name" required>
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Last Name" required>
+                <label for="streetAddress">Home Address</label>
+                <input type="text" id="streetAddress" name="streetAddress" placeholder="Street Address" required>
+                <label for="city">City</label>
+                <input type="text" id="city" name="city" placeholder="City" required>
+                <label for="state">State / Province / Region</label>
+                <input type="text" id="state" name="state" placeholder="State / Province / Region" required>
+                <label for="zipCode">ZIP / Postal Code</label>
+                <input type="text" id="zipCode" name="zipCode" placeholder="ZIP / Postal Code" required>
+                <label for="country">Country</label>
+                <input type="text" id="country" name="country" placeholder="Country" required>
+                <label for="phone">Contact Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="Contact Number" required>
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="Email Address" required>
+                <label for="destination">Destination</label>
+                <input type="text" id="destination" name="destination" placeholder="Destination" required>
+                <fieldset>
+                    <legend>What type of transport do you require?</legend>
+                    <input type="radio" id="shuttle" name="transportType" value="shuttle" required>
+                    <label for="shuttle">Shuttle Services</label><br>
+                    <input type="radio" id="limousine" name="transportType" value="limousine" required>
+                    <label for="limousine">Limousine Services</label><br>
+                    <input type="radio" id="tour" name="transportType" value="tour" required>
+                    <label for="tour">Tour</label>
+                </fieldset>
+               
+                <label for="guests">Please specify the number of guests in your party</label>
+                <select id="guests" name="guests">
+                  <option value="1">1 Guest</option>
+                  <option value="2">2 Guests</option>
+                  <option value="3">3 Guests</option>
+                  <option value="4">4 Guests</option>
+                  <option value="5">5 Guests</option>
+                  <option value="6">6 Guests</option>
+                  <option value="moreThan6">More than 6 Guests</option>
+                </select>      
+                  
+                <fieldset class="form-group">
+                    <legend>Select Pick-Up Location:</legend>
+                    <input type="radio" id="homeAddress" name="pickupLocation" value="homeAddress">
+                    <label for="homeAddress">My Home Address (provided above)</label><br>
+                    <input type="radio" id="comoxAirport" name="pickupLocation" value="comoxAirport">
+                    <label for="comoxAirport">Comox Valley Airport (YQQ)</label><br>
+                    <input type="radio" id="littleRiver" name="pickupLocation" value="littleRiver">
+                    <label for="littleRiver">Little River Ferry Terminal</label><br>
+                    <input type="radio" id="departureBay" name="pickupLocation" value="departureBay">
+                    <label for="departureBay">Departure Bay Ferry Terminal (Nanaimo)</label><br>
+                    <input type="radio" id="dukePoint" name="pickupLocation" value="dukePoint">
+                    <label for="dukePoint">Duke Point Ferry Terminal (Nanaimo)</label><br>
+                    <input type="radio" id="other" name="pickupLocation" value="other">
+                    <label for="other">Other</label>
+                </fieldset>
+                
+                <fieldset class="form-group">
+                    <legend>When do you need to be picked up?</legend>
+                    <input type="radio" id="asap" name="pickupTime" value="ASAP">
+                    <label for="asap">ASAP</label><br>
+                    <input type="radio" id="selectDateTime" name="pickupTime" value="selectDateTime">
+                    <label for="selectDateTime">Select time and date of travel</label><br>
+                </fieldset>
+
+                  <label for="specialRequests">Additional Notes:</label>
+                  <textarea id="specialRequests" placeholder="Enter any special requirements or details"></textarea>
+                    
+                  <div class="wrapper-button">
+                    <input type="reset" value="Reset">
+                    <input type="submit" value="Submit">
+                  </div>
+            </form>
+          </div>
+          <div class="reserv-add">
+            <h2><i class="fa fa-star" style="color: #ffd22e;"></i>Exclusive Charter Services Offered!</h2>
+            <p>
+              <span>Kindly be advised that Exclusive Charters, not limited to airports, are readily available by appointment.</span>
+              <span>Feel free to reach out to us at 250-339-5252 (LOCAL) or 1-877-339-5252 (OUT OF AREA) to explore and tailor transportation services to perfectly suit your requirements.</span>
+            </p>
+            <!-- Heading and paragraph are rewritten by ChatGPT --> 
+
+          </div> 
+        </div>
+        </section>
+
+
+         <!-- Reservation benefits section codings begins here-->
+         <section class="reservation-benefits">
+          <div class="reservation-heading">
+            <h2>Why Opt for Scheduled Reservations</h2> 
+            <p class="reserv-parag">Scheduled reservations offer a multitude of advantages, providing a streamlined and efficient approach to planning and securing transportation services. By opting for scheduled reservations, individuals can enjoy a range of benefits that ensure convenience, reliability, and personalized service</p>
+          </div>  
+          <div class="reservation-cards-main">
+            <div class="reserv-cards">
+                <img src="images/safety.png" alt="Safety & Security">
+                <div class="reserv-text">
+                  <h3>Safety & Security</h3>
+                  <p>Prioritize safety measures with vetted and secure transportation services.</p>
+                </div>
+            </div>
+            <div class="reserv-cards">
+                <img src="images/schedule.png" alt="Travel Planning">
+                <div class="reserv-text">
+                  <h3>Travel Planning</h3>
+                  <p>Plan your itinerary in advance, saving time by avoiding last-minute hassles in securing transportation.</p>
+                </div>  
+            </div>
+            <div class="reserv-cards">
+                <img src="images/time.png" alt="Guaranteed Availability">
+                <div class="reserv-text">
+                  <h3>Guaranteed Availability</h3>
+                  <p>Ensure availability of transportation services at your preferred times, especially during peak hours or busy seasons.</p>
+                </div>  
+            </div>
+            <div class="reserv-cards">
+                <img src="images/pickup.png" alt="Effortless Pick-Up Coordination">
+                <div class="reserv-text">
+                  <h3>Effortless Pick-Up Coordination</h3>
+                  <p>Ensure seamless and reliable transportation arrangements from your preferred location with scheduled pickups."</p>
+                </div>  
+            </div>
+            <div class="reserv-cards">
+                <img src="images/accessibility.png" alt="Accessible Travel Solutions">
+                <div class="reserv-text">
+                  <h3>Accessible Travel Solutions</h3>
+                  <p>Enjoy convenient access to transportation options tailored to your needs, available at your preferred times through scheduled reservations.</p>
+                </div>  
+            </div>
+            <div class="reserv-cards">
+                <img src="images/phone-booking.png" alt="Effortless Booking via Phone">
+                <div class="reserv-text">
+                  <h3>Effortless Booking via Phone</h3>
+                  <p>Seamlessly schedule your transportation needs with a simple phone call, ensuring hassle-free arrangements.</p>
+                </div>  
+            </div>
+          </div>
+          <!-- Headings, sub-headings, and paragraph are Written by ChatGPT --> 
+        </section>  
+
+
+        <!-- FAQs section coding begins here -->
+        <section class="faq">
+            <h2>Frequently Asked Questions (FAQ)</h2>
+            <div class="faq-item">
+                <h4 class="faq-question">
+                  How do I make a reservation?
+                </h4>
+                <div class="faq-answer">
+                  <p>You can easily make a reservation by filling out our online form or by contacting our reservation department directly.</p>
+                </div>
+            </div>
+              
+            <div class="faq-item">
+                <h4 class="faq-question">
+                  Can I cancel my reservation?
+                </h4>
+                <div class="faq-answer">
+                 <p>Yes, you can cancel your reservation. Please refer to our cancellation policy or contact our support team for assistance.</p> 
+                </div>
+              </div>
+
+              <div class="faq-item">
+                <h4 class="faq-question">
+                  What payment methods do you accept?
+                </h4>
+                <div class="faq-answer">
+                <p>  We accept payments via cash, debit cards, and major credit cards like Visa and Mastercard. </p> 
+                </div>
+              </div>
+              
+              <div class="faq-item">
+                <h4 class="faq-question">
+                  Is there a minimum notice required for reservations?
+                </h4>
+                <div class="faq-answer">
+                  <p>Yes, we require a minimum notice of 24 hours for reservations. For immediate service, please contact our team directly.</p> 
+                </div>
+              </div>
+
+              <div class="faq-item">
+                <h4 class="faq-question">
+                  Can I modify my reservation details?
+                </h4>
+                <div class="faq-answer">
+                  <p>Yes, you can modify your reservation details by contacting our reservation department. Certain conditions may apply.</p>
+                </div>
+              </div>
+              <!-- All the contents and headings are Written by ChatGPT --> 
+        </section>
+
+        <!-- Newsletterlink section coding begins here -->
+        <section class="newsletterlink">
+          <div class="newsletter-body">
+            <h2>Join Our Newsletter for Exclusive Offers</h2>
+            <p>Sign up for our newsletter to stay updated with the latest offers, promotions, and exclusive deals. Be the first to know about exciting discounts and travel packages tailored just for you.</p>
+            <a href="">Sign Up Now</a>
+            <!-- Heading, paragraph and anchor are Written by ChatGPT --> 
+          </div>
+        </section>
+       
+
+    </main>
+
+    <!-- Footer section coding begins here -->
+    <footer>
+        <section class="footer-section">
+            <div class="footer-1">
+                <h3>Ambassador Transport</h3>
+                <p>Ambassador Transport provides shuttle service to and from the Comox Valley Airport (YQQ) and offers custom ground transportation on the East coast of North central Vancouver Island, BC.</p>
+                <!-- Heading and paragraph are Written by ChatGPT --> 
+                <div class="social-media">
+                    <i class="fa fa-facebook-square"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-youtube"></i>
+                </div>
+            </div>
+            <div class="footer-2">
+                <h3>Services</h3>
+                <ul>
+                  <li><a href="service.html#wine-service">Wine Tours</a></li>
+                  <li><a href="service.html#limousine-service">Limousine Services</a></li>
+                  <li><a href="service.html#shuttle-service">Airport Shuttle</a></li>
+                </ul>
+            </div>
+            <div class="footer-3">
+              <h3>Contact</h3>
+              <address>
+              <ul>
+                  <li>407 4th St, Courtenay, BC V9N1G9 </li>
+                  <li><a href="mailto:gowithambassador@gmail.com">gowithambassador@gmail.com</a></li>
+                  <li>Phone: <a href="tel:+1-250-339-5252">+1-250-339-5252</a> </li>
+                  <li>Toll free: <a href="tel:+1-877-339-5252">+1-877-339-5252</a></li>
+              </ul>  
+              </address>
+          </div>
+            <div class="google-location">
+                
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2713.399963218693!2d-124.99885808433955!3d49.69437927938319!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54869a6da218c7e5%3A0x4ab1967cfa4d7b83!2s407%204th%20St%2C%20Courtenay%2C%20BC%20V9N%201G9%2C%20Canada!5e0!3m2!1sen!2sus!4v1636978788986!5m2!1sen!2sus" title="google map" width="300" height="230" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            
+        </section>
+        <div class="footer-below">
+            <p>©2023 Form | All right reserved <br> This is a fictional website that was designed and coded as an educational exercise. It is not intended to be seen outside of the class environment. None of the content and images were approved by the business owner.</p>
+        </div>
+    </footer>
+   
+   <script>
+        function showNav() {
+            var element = document.getElementById("nav-items");
+            element.classList.toggle("show-items");
+        }
+    </script>
+
+    
+</body>
+</html>

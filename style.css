@@ -1,0 +1,1672 @@
+/* Global Styles */
+html{
+    font-size: 62.5%;
+    
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8rem;
+}
+
+/* == TYPOGRAPHY == */
+
+h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 2.8rem;
+    color: #283618;
+    text-align: center;
+  }
+  
+h2 {
+    
+    font-size: 2.4rem;
+    color: #283618;
+    margin: 0 25px;
+    padding: 0 6px;
+    text-align: center;
+  }
+  
+h3{
+  
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.0rem;
+}  
+
+h4{
+
+    font-size: 2.0rem;
+}
+    
+p {
+    line-height: 2.4rem;
+    font-size: 1.7rem;
+  }
+  
+
+/*----------- HEADER CODING BEGINS HERE----------- */  
+
+  header {
+    background-color: #efefef;
+    margin-bottom: 40px;
+  
+    
+  }
+  
+  header .wrapper-width {
+      padding: 9.5px 25px 0px 20px;
+      display: flex;
+      justify-content: space-between;
+ }
+    
+ .toggle i {
+      color: #283618;
+      font-size:2.0rem;
+      margin-top: 14px;
+      margin-bottom: 20px;
+  
+  }
+  
+  header img{
+      width: 180px;
+      height: 55px;
+      margin-bottom: 15px;
+      object-fit: cover;
+  
+  }
+  
+  .nav-anchor{
+    display: none;
+    
+  }
+  
+nav {
+    text-align: right;
+  }
+    
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: none;
+    }
+    
+    nav ul li {
+      padding: 12px 0;
+    }
+  
+    .login{
+      margin-top: 10px;
+    }
+
+    nav ul li a{
+      text-decoration: none;
+      color: #7E3C02;
+      text-transform: uppercase;
+      font-size:1.5rem;
+      text-align: center;
+    }
+  
+    nav li .reservation-anchor, .book-anchor{
+      text-decoration: none;
+      background-color: #283618;
+      color: #FFFFFF;
+      padding: 10px 10px;
+      border-radius: 5px;
+      font-size: 1.2rem;
+  
+   }
+    .show-items {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      margin-bottom: 10px;
+      
+    }
+  
+   .reservation-anchor,
+   .book-anchor{
+      transition: background-color 0.3s ease-in-out; 
+    }
+
+
+   .reservation-anchor:hover,
+   .book-anchor:hover {
+      background-color: #BC6C25;
+    }
+
+ /* -------FOOTER CODING BEGINS HERE-------- */
+.footer-section{
+  background-color: rgb(226, 225, 225);
+  padding: 0 15px 0 10px;
+  text-align: center;
+}
+
+.footer-section p{
+  font-size: 1.6rem;
+  padding: 0 30px 0 30px;
+}
+
+.footer-1 h3{
+  margin-top: 0;
+  padding-top: 40px;
+}
+
+
+.footer-1 .social-media i{
+  font-size: 2.5rem;
+  margin-right: 10px;
+}
+
+.footer-2 h3{
+  margin-top: 0;
+  padding-top: 40px;
+}
+
+.footer-2 li a{
+  color: #000;
+  text-decoration: none;
+   list-style: none;
+  line-height: 28px;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.footer-2 ul li{
+  list-style: none;
+  margin-right: 40px;
+}
+
+.footer-3 h3{
+  margin-top: 0;
+  padding-top: 10px;
+}
+
+.footer-3 p{
+  padding: 10px 30px 0 30px;
+}
+
+.footer-3 li{
+  list-style: none;
+  line-height: 28px;
+  font-size: 1.6rem;
+  text-align: center;
+  margin-right: 20px;
+}
+address{
+  font-style: normal;
+  margin-bottom: 40px;
+}
+
+address a,
+address p{
+  color: #000;
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 28px;
+  text-decoration: none;
+  margin-bottom: 0;
+}
+
+.footer-below p{
+  border-top: 2px solid #283618;
+  font-size: 1.4rem;
+  text-align: center;
+  color: #283618;
+  margin: 20px 20px 0px 20px;
+  padding:15px 0;
+}
+   
+
+/* ----------HOME PAGE CODINGS----------- */
+
+  /*----------HERO SECTION BEGINS HERE----------  */
+  .hero{
+    background: #F2F5F7 0% 0% no-repeat padding-box;
+    margin-top: -42px;
+    text-align: center;
+  }    
+
+  .hero-text{
+    padding-bottom: 50px;
+  }
+  .hero-text h1{
+    text-align: center;
+    padding: 10px 15px 10px 15px;
+ }
+
+ .hero-text p{
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 0 20px 50px 20px;
+  }
+
+  .hero-text a{
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    background-color: #283618;
+    padding: 13.5px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out;
+    display: inline-block;
+  }
+
+  .hero-text a:hover{
+    transform: translateY(-8px);
+    
+  }
+
+  .hero-image img{
+    margin-top: 45px;
+    width: 300px;
+    height: 255px;
+    object-fit: cover;
+  }
+
+
+/* ----------SERVICES SECTION CODING------------- */
+
+.services{
+    margin-top: 55px;
+    text-align: center;
+    margin-bottom: 80px;
+  }
+  .services-text p{
+    padding: 0 35px;
+    margin-bottom: 12px;
+ }
+  
+ .services-image a{
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    background-color: #283618;
+    padding: 13.5px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.services-image{
+    margin-top: 35px; 
+    margin-bottom: 50px;
+    
+} 
+
+.text-boxes:hover {
+  box-shadow: 0 0 20px #283618; 
+}
+
+
+.text-boxes img{
+    width: 260px;
+    height: 210px;
+    object-fit: cover;
+    transition: box-shadow 0.3s ease-in-out; 
+}
+
+
+.text-boxes h3{
+    color: #283618;
+    margin-bottom: 20px;
+  }
+
+.text-boxes p{
+    margin: 25px 60px;
+}  
+
+.service-anchor{
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    background-color: #283618;
+    padding: 13.5px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+
+
+/* -------- ABOUT SECTION CODING--------- */
+.about{
+    text-align: center;
+}
+
+.about h2{
+    margin-bottom: 30px;
+}
+
+.about-image img{
+    width: 260px;
+    height: 210px;
+    object-fit: cover;
+}
+
+.about-text p{
+    padding: 15px 38px;
+}
+
+
+/* ---------BENEFITS SECTION CODING BEGINS HERE------------ */
+
+.benefits{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.benefits p{
+    padding: 20px 38px 0 38px;
+}
+
+.benefits-cards{
+    margin: 35px 20px 50px 20px;
+    
+    
+}
+.benefits-boxes{
+    background-color: antiquewhite;
+    padding: 5px 5px;
+    margin: 20px 50px 20px 50px;
+    transition: border-color 0.3s ease-in-out; 
+    border: 2px solid transparent; 
+}
+
+.benefits-boxes:hover {
+  border-color: #283618; 
+}
+
+.benefits-boxes img{
+    width: 100px;
+    height: 100px;
+    margin-top: 40px;
+    padding: 8px 8px;
+    border: 2px solid #283618;
+    object-fit: cover;
+}
+
+
+/* ----------TESTOMONIAL SECTION CODING BEGINS HERE------------- */
+.testomonial{
+    margin: 60px 0;
+    text-align: center;
+  }
+
+.testomonial h2{
+    margin-bottom: 30px;
+  
+}
+
+.testomonial-section{
+  margin-bottom: 50px;
+}
+
+.testomonial-card img{
+  margin-top: 10px;
+  width: 125px;
+  height: 125px;
+  border-radius: 80px;
+  border: 4px solid #283618;
+  padding: 3px;
+  object-fit: cover;
+} 
+
+.testomonial-card h3{
+  color: #283618;
+  margin-bottom: 0;
+}
+
+.testomonial-card p{
+  margin-top: 10px;
+  padding: 0 50px;
+  width: 100%;
+  white-space: nowrap; 
+  overflow: hidden; 
+  text-overflow: ellipsis;
+  
+}
+
+.testomonial a{
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    background-color: #283618;
+    padding: 13.5px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.testomonial-section{
+  padding: 40px 40px;
+  background-image: url(images/travel.jpg);
+  background-attachment: fixed;
+  
+}
+
+@keyframes grow {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  100% {
+    transform: scale(1.05); 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6); 
+  }
+}
+
+
+.testomonial-card{
+  background-color: rgb(253, 253, 253);
+  margin:30px 0;
+  opacity: 0.8;
+  animation: grow 1s ease-in-out infinite alternate;  
+}
+
+/* ----------CALL-TO-ACTION CODING BEGINS HERE----------- */
+
+.call-to-action{
+  background: #283618;
+  text-align: center;
+  padding-bottom: 60px; 
+}
+
+.call-to-action h3{
+  font-size: 2.5rem;
+  padding-top: 40px;
+  color: #FFFFFF;
+  margin: 40px 30px 0 30px;
+}
+
+.call-to-action p{
+  color: #FFFFFF;
+  font-size: 1.8rem;
+  line-height: 24px;
+  margin: 35px 35px 41px 35px;
+}
+
+.call-to-action a{
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #283618;
+  text-transform: uppercase;
+  background-color: #FFFFFF;
+  padding: 13.5px 40px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+
+
+
+
+/* ----------------RESERVATION PAGE CSS BEGINS HERE---------------------------- */
+
+/* RESERVATION HERO SECTION CODING BEGINS HERE */
+.reservation-hero{
+    background: url(images/reservation-banner.jpg);
+    object-fit: cover;
+    margin-top: -42px;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+  }
+
+.reservation-hero h1{
+  padding-top: 20vh;
+  color: #FFFFFF;
+}
+
+/* RESERVATION ABOUT SECTION CODING BEGINS HERE */
+
+.reservation-about h2{
+  margin: 40px 0;
+}
+
+.reserv-paragraph span{
+  display: block;
+  margin: 20px 40px 10px 40px;
+  text-align: center;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+
+/* RESERVATION BENEFITS BEGINS HERE */
+.reservation-benefits{
+  margin: 50px 0;
+}
+
+.reservation-heading p{
+  padding: 20px 30px;
+  text-align: center;
+}
+
+.reserv-cards{
+  background-color: antiquewhite;
+  padding: 15px;
+  margin: 0 45px 20px 45px;
+  display: flex;
+  flex-direction: row;
+  transition: transform 0.5s ease-in-out; 
+}
+
+.reserv-cards:hover {
+  transform: translateY(-10px);
+}
+
+.reserv-cards img{
+  width: 70px;
+  height: 50px;
+  border: 3px solid #283618;
+  padding: 5px;
+  object-fit:cover;
+  transition: transform 0.5s ease-in-out;
+}
+
+.reserv-cards:hover img{
+  transform: rotate(360deg);
+}
+
+
+.reserv-text h3{
+  font-size: 1.8rem;
+  margin: 0 0 0 30px;
+}
+
+.reserv-text p{
+  margin: 0 0 15px 30px;
+  padding-top: 10px;
+  padding-right: 0;
+  text-align: initial;
+  
+}
+
+
+/* RESERVATION FORM SECTION CODING BEGINS HERE */
+.reservation-form h2{
+  margin-top: 60px;
+}
+
+.form-main{
+  background-color: #283618;
+  margin: 40px 30px;
+  border-radius: 5px;
+  padding: 30px 20px;
+  color: #FFFFFF;
+}
+
+.reserv-add h2{
+  color: #FFFFFF;
+  font-size: 1.9rem;
+  padding: 0;
+  margin: 0;
+}
+
+.reserv-form{
+  font-size: 1.6rem;
+  
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-size: 1.4rem;
+}
+textarea{
+  height: 30vh;
+}
+
+legend, select{
+  margin: 15px 0 15px 0;
+}
+
+fieldset{
+  margin: 10px 0 30px 0;
+}
+
+.wrapper-button{
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+input[type="reset"] {
+  color: #ffffff;
+  padding: 12px 30px;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  background-color: rgb(203, 1, 1)
+}
+
+input[type="reset"]:hover {
+  background-color: rgb(243, 83, 83);
+}
+
+input[type="submit"] {
+  background-color: #040404;
+  color: #ffffff;
+  font-size: 1.5rem;
+  padding: 12px 30px;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #2c2c2c;
+}
+
+input[type="radio"]{
+  margin-bottom: 10px;
+}
+
+.reserv-add p{
+  text-align: justify;
+}
+
+.reserv-add h2{
+  margin: 60px 0 30px 0;
+}
+
+.reserv-add i{
+  margin-right: 15px;
+}
+
+.reserv-add span{
+  display: block;
+  margin: 20px 40px 10px 45px;
+  text-align: left;
+}
+
+
+/* RSERVEATION FAQ SECTION CODING BEGINS HERE */
+.faq h2{
+  margin-bottom: 40px;
+}
+
+.faq-answer {
+  display: none;
+  font-size: 1.6rem;
+  margin-left: 10px;
+}
+
+.faq-answer.show-answer {
+  display: block;
+}
+
+.arrow:hover {
+  cursor: pointer;
+}
+
+.faq-item{
+  margin: 10px 25px;
+}
+
+.faq-item h4{
+  font-size: 1.6rem;
+  border: 2px solid #949393;
+  padding: 10px;
+  background: #949393;
+}
+
+/* NEWSLETTER SECTION CODING BEGINS HERE */
+
+.newsletterlink{
+  margin-top: 70px;
+  padding:60px 0;
+  background-color: #283618;
+  text-align: center;
+}
+
+.newsletterlink h2{
+  color: #ffffff;
+}
+
+.newsletterlink p{
+  margin: 30px;
+  color: #ffffff;
+}
+
+.newsletterlink a{
+  text-transform: uppercase;
+  text-decoration: none;
+  color:#000;
+  background-color: #ffffff;
+  padding: 13.5px 30px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+
+/* RESERVATION SERVICE CODINGS BEGINS HERE */
+
+.reservation-service h2{
+  margin: 40px 0;
+}
+
+.reservation-service p{
+  text-align: center;
+  margin: 0 40px 40px 40px;
+}
+
+.table-wrapper{
+  margin: 20px;
+}
+
+table {
+  width: 100%;
+  
+}
+
+td,
+th {
+  padding:12px;
+  font-size: 1.5rem;
+  text-align: center;
+  
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #283618;
+  color: white;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+  background-color: #b0c598;
+}
+
+td.merge {
+  text-align: center;
+  font-style: italic;
+}
+
+tfoot {
+  font-size: 0.8em;
+  font-style: italic;
+  text-align: center;
+  background-color: #c5c5c5;
+}
+
+tfoot {
+  font-size: 0.8em;
+  font-style: italic;
+  text-align: center;
+  background-color: #c5c5c5;
+  
+}
+
+
+/* ----------------RATE PAGE CSS BEGINS HERE---------------------------- */
+
+/* HERO SECTION CODING BEGINS HERE */
+
+.rates-hero{
+  background: url(images/rates-banner.jpg);
+  object-fit: cover;
+  margin-top: -42px;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+}
+
+.rates-hero h1{
+padding-top: 20vh;
+color: #FFFFFF;
+}
+
+/* PRICING SECTION CODING BEGINS HERE */
+.pricing-structure{
+  margin: 0 30px;
+  text-align: center;
+}
+.pricing-structure h2{
+  margin:60px 0 30px 0;
+}
+.pricing-structure ul{
+  padding-left: 30px;
+}
+
+.pricing-structure li{
+  text-align: justify;
+  margin-bottom: 15px;
+}
+
+.pricing-structure p{
+  margin:30px 0 35px 0;
+}
+
+/* PRICING TABLES SECTION CODING BEGINS HERE */
+.pricing-tables{
+  margin: 0 30px;
+  text-align: center;
+}
+
+.pricing-tables h3{
+  margin: 50px 20px 0px 20px;
+  line-height: 25px;
+  font-size: 1.9rem;
+  color: #283618;
+}
+
+.pricing-data{
+  margin-top: 50px;
+  
+}
+
+
+.pricing-cell{
+  margin: 0 15px 30px 15px;
+  border: 2px solid #7b7c7b;
+  padding-bottom: 20px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.pricing-cell:hover {
+  transform: translateY(-10px);
+}
+
+.pricing-cell h3{
+  background-color: #283618;
+  padding: 10px;
+  margin: 0;
+  color: #ffffff;
+}
+
+.pricing-cell p{
+  font-size: 4.5rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.pricing-cell ul{
+  list-style: url('images/rocket-small.png');
+  margin: 0 0 0 50px ;
+  padding: 0;
+  text-align: left;
+  line-height: 40px;
+}
+
+
+/* RESERVE-SEAT CALL-T0-ACTION BUTTON SECTION CODING BEGINS HERE */
+.reserve-seat{
+  margin-top: 50px;
+  padding:60px 0;
+  background-color: #283618;
+  text-align: center;
+}
+
+.reserve-seat h2{
+  color: #ffffff;
+}
+
+.reserve-seat p{
+  margin: 40px 30px 50px 30px;
+  color: #ffffff;
+}
+
+.reserve-seat a{
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+  background-color: #FFFFFF;
+  padding: 13.5px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+
+/* -------------SERVICE PAGE CODING BEGINS HERE --------------- */
+
+/* HERO SECTION CODING BEGINS HERE */
+.banner-video {
+  margin-top: -42px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.service-hero {
+  margin-top: -42px;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 350px;
+}
+
+/* SERVICE-INFO SECTION CODING BEGINS HERE */
+
+.service-infor{
+  margin: 0 20px;
+}
+
+.service-infor p{
+  text-align: center;
+  margin: 40px 5px 0 5px;
+}
+
+.service-infor h1{
+  margin-top: 5px;
+}
+
+/* LIMOUSINE SERVICE, SHUTTLE SERVICE, WINE SERVICE SECTION CODINGS*/
+
+.limousine-service,
+.shuttle-service,
+.wine-tours{
+  text-align: center;
+}
+.limousine-service img,
+.shuttle-service img,
+.wine-tours img{
+  width: 300px;
+  height: 250px;
+  object-fit: cover;
+  margin-top: 50px;
+}
+
+.limousine-service h2,
+.shuttle-service h2{
+  margin-top: 30px;
+  color: #283618;
+}
+
+.main-service-list h4{
+  margin-top: 30px;
+  color: #283618;
+}
+
+.limousine-service p,
+.shuttle-service p,
+.wine-tours p{
+  margin: 30px 45px 0 45px;
+}
+
+.location-list{
+  text-align: left;
+  margin: 20px 30px;
+}
+
+.location-list li{
+  margin-bottom: 5px;
+}
+
+.destination-list{
+  padding-bottom: 30px;
+}
+
+.shuttle-service h4{
+  color: #BC6C25;
+}
+
+.shuttle-service a{
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: #283618;
+  padding: 13.5px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+
+/* CALL-TO-ACTION BUTTON (BOOK NOW) CODINGS */
+.book-now{
+  margin-top: 70px;
+  padding:60px 0;
+  background-color: #283618;
+  text-align: center;
+}
+
+.book-now h2{
+  color: #ffffff;
+}
+
+.book-now p{
+  margin: 30px;
+  color: #ffffff;
+}
+
+.book-now a{
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
+  background-color: #ffffff;
+  padding: 13.5px 30px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+
+/* -----------ABOUT PAGE SECTION CODING BEGINS HERE -----------*/
+
+/* HERO SECTION CODING BEGINS HERE */
+.about-hero{
+  background: url(images/about-main.jpg);
+  object-fit: cover;
+  margin-top: -42px;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+}
+
+.about-hero h1{
+padding-top: 20vh;
+margin: 0 30px;
+color: #ffffff;
+} 
+
+/* ABOUT INFORMATION SECTION CODING BEGINS HERE */
+.about-info{
+  margin-top: 50px;
+  text-align: center;
+}
+
+.about-info p{
+  margin: 20px 40px;
+}
+
+.about-info span{
+  display: block;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.about-info .owner{
+  margin: 0;
+}
+
+/* HISTORY SECTION CODING BEGINS HERE */
+.history img{
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
+
+.history{
+  margin-top: 50px;
+  text-align: center;
+}
+
+.history h2{
+  margin-top: 30px;
+}
+
+.history p{
+  margin: 20px 40px;
+}
+
+/* PARTNERS SECTION CODINGS BEGINS HERE */
+.partners{
+  margin: 40px 0 60px 0;
+  text-align: center;
+}
+
+.partners img{
+  margin-top: 30px;
+  width: 150px;
+  height: 150px;
+  border: 2px solid #283618;
+  padding: 5px;
+}
+
+.partners h3{
+  font-size: 1.6rem;
+}
+
+
+/* GENERAL ANCHOR HOVER EFFECTS */
+.newsletterlink a:hover,
+.service-anchor:hover,
+.testomonial a:hover,
+.call-to-action a:hover,
+.reserve-seat a:hover,
+.book-now a:hover,
+.shuttle-service a:hover
+ {
+  background-color: #BC6C25; 
+  color: #000;
+  font-weight: bold;
+}
+
+/* Large devices (desktops, 1200px and up)  */
+
+@media only screen and (min-width: 1200px) {
+  .wrapper-width {
+    width: 1170px;
+    margin: auto;
+  }
+
+  
+  /* MEDIA QUERIES FOR NAVIGATION */
+  nav .toggle {
+    display: none;
+  }
+
+  .navigation-elements ul{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+  }
+
+  nav{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+
+  .show-items li{
+    margin: 10px 30px 0 0; 
+  }
+
+  .reservation-anchor{
+    margin-left: 60px;
+    
+  }
+
+  /* MEDIA QUERIES FOR HERO SECTION OF HOME PAGE */
+
+  .hero-wrapper-width {
+    width: 1170px;
+    height: 450px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .hero-image img{
+    margin-top: 50px;
+    margin-left: 80px; 
+    width: 400px;
+    height: 360px;
+    object-fit: cover;
+  }
+
+  .hero-text{
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .hero-text h1{
+    margin: 20px 80px 0 80px;
+    line-height: 40px;
+    text-align: center;
+  }
+
+  .hero-text p{
+    margin: 20px 60px 50px 60px;
+  } 
+  
+
+  /* MEDIA QUERIES FOR SERVICES SECTION  OF HOME PAGE*/
+  .services-wrapper-width{
+    width: 1170px;
+    margin: auto;
+  }
+
+  .services{
+    margin-top: 70px;
+    
+  }
+
+  .service-content{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    
+  }
+
+  .services-image {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .services-text{
+    margin-top: -100px;
+    
+  }
+  .services-text p{
+    text-align: left;
+  }
+
+  .text-boxes{
+    margin: 0 10px 0 10px;
+    background-color: rgb(158, 172, 142);
+    padding: 10px 10px;
+  }
+
+  .text-boxes img{
+    width: 240px;
+  }
+
+  .text-boxes p{
+    font-size: 1.5rem;
+    margin: 0 10px 15px 10px;
+    line-height: 18px;
+  }
+
+  /* MEDIA QUERIES FOR ABOUT SECTION OF HOME PAGE*/
+  .about-content{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .about-image img{
+    width: 500px;
+    height: 400px;
+  }
+ 
+  .about-text{
+    text-align: justify;
+  }
+
+  /* MEDIA QUERIES FOR BENEFITS SECTION OF HOME PAGE*/
+
+  .benefits h2{
+    margin-top: 80px;
+  }
+  .benefits p{
+    margin: 30px 60px 0 60px;
+  }
+
+  .benefits-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .benefits-boxes{
+    padding: 0px 50px;
+    margin: 10px;
+  }
+
+
+  /* MEDIA QUERIES FOR TESTOMONIAL SECTION OF HOME PAGE */
+  .testomonial-section{
+    width: 1170px;
+    margin: 50px auto;
+    
+    
+  }
+
+  .testomonial-card{
+    padding: 20px 80px;
+    margin: 40px 190px;
+    opacity: 0.8;
+    
+  }
+
+  /* MEDIA QUERIES FOR FOOTER */
+footer{
+  background-color: rgb(226, 225, 225);
+}
+
+  .footer-section{
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .footer-1 p{
+    width: 250px;
+    margin:20px 0
+    
+  }
+
+  .footer-1 .social-media i{
+    margin-right: 15px;
+  }
+
+  .footer-2 ul{
+    line-height: 40px;
+    width: 300px;
+  }
+
+  .footer-3{
+    margin-top: 30px;
+    width: 400px;
+    
+  }
+
+  .google-location{
+    margin:30px 0 0 60px;
+  }
+
+
+  /* MEDIA QUERIES FOR RESERVATION PAGE */
+
+.form-main{
+  display: flex;
+  flex-direction: row;  
+}
+
+.reserv-add h2{
+  margin: 10px 0 30px 0;
+} 
+
+.reserv-add{
+  margin: 0 40px;
+}
+
+.reservation-form{
+    width: 1170px;
+    margin: auto;
+  }
+
+.reserv-form{
+    padding: 10px 0 10px 40px;
+  } 
+
+.wrapper-button{
+    margin: 30px 160px 0 160px;
+  }
+
+  .faq{
+    width: 1170px;
+    margin: auto;
+  }
+
+  .faq h2{
+    margin-top: 60px;
+  }
+  .newsletterlink p{
+    margin-bottom: 50px;
+    padding: 0 50px;
+    line-height: 25px;
+    
+  }
+
+  .newsletter-body{
+    width: 1170px;
+    margin: auto;
+  }
+
+  .reservation-benefits{
+    width: 1170px;
+    margin: auto;
+  }
+
+  .reservation-heading h2{
+    margin-top: 60px;
+  }
+
+ 
+  .reservation-cards-main{
+    display: flex;
+    flex-wrap: wrap; 
+    
+  }
+
+  .reserv-cards{
+    width: calc(33.33% - 20px);
+    margin: 10px; 
+  }
+
+.reservation-about{
+  width: 1170px;
+  margin: auto;
+}
+
+.reservation-about h2{
+  margin: 50px 200px;
+  line-height: 35px;
+}
+
+.reserv-paragraph span{
+  display: inline;
+  text-align: left;
+  margin: 0;
+}
+
+.reservation-service{
+  width: 1170px;
+  margin: auto;
+}
+
+.table-wrapper{
+  margin: 0 150px;
+}
+
+/* RATE SECTION MEDIA QUERIES BEGINS HERE */
+
+/* Hero section coding begins here */
+.rates-hero h2{
+  width: 1170px;
+  margin: auto;
+}
+
+/*  Pricing details section codings begins */
+.pricing-structure{
+  width: 1170px;
+  margin: auto;
+}
+
+.pricing-structure ul{
+  margin: 0 80px 40px 80px;
+}
+
+.pricing-structure li{
+  margin-bottom: 20px;
+}
+
+
+/* Rate of travel packages begins here */
+
+.pricing-tables{
+  width: 1170px;
+  margin: auto;
+}
+
+.pricing-data{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+}
+
+.pricing-cell{
+  width: 300px;
+}
+
+.price-heading{
+  padding: 0 150px 10px 150px;
+}
+
+/* reserve-seat call-to-action media queries */
+.reserve-seat-body{
+  width: 1170px;
+  margin: auto;
+  padding: 0 100px;
+}
+
+.reserve-seat-body p{
+  line-height: 30px;
+} 
+
+/* MEDIA QUERIES FOR SERVICE PAGE BEGINS HERE */
+.service-hero {
+  height: 450px;
+}
+
+.limousine-service img, 
+.shuttle-info img{
+  width: 550px;
+  height: 450px;
+}
+
+.limousine-service{
+  display: flex;
+  width: 1170px;
+  margin: auto;
+}
+
+.limousine-group {
+  margin: 60px 50px 0 50px;
+}
+
+.shuttle-service{
+  width: 1170px;
+  margin: auto;
+}  
+
+.shuttle-info{
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 70px;
+}
+
+.shuttle-desc {
+  margin: 100px 50px 0 50px;
+}
+
+.main-service-list{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 60px 60px 60px;
+}
+
+.destination-list,
+.pickup-list {
+  padding: 10px 10px;
+  background-color: #b5bbac;
+  margin: 10px;
+}
+
+
+.wine-tours{
+  width: 1170px;
+  margin: 50px auto 10px auto;
+}
+
+.wine-tours-info{
+  display: flex;
+  
+}
+
+
+.wine-tours-info img{
+  width: 550px;
+  height: 450px;
+}
+
+
+.wine-tours h2{
+  margin: 100px 50px 0 50px;
+  color: #283618;
+}
+
+.wine-tours-service{
+  display: flex;
+  margin: 50px;
+}
+
+.wine-tours-service h4{
+  color: #BC6C25;
+}
+
+.topic-wine{
+  margin-top: 50px;
+}
+
+.book-now-body{
+  width: 1170px;
+  margin: auto;
+  padding: 0 100px;
+}
+
+.book-now-body p{
+  margin-bottom: 50px;
+}
+
+
+/* MEDIA QUERIES FOR ABOUT SECTION BEGINS HERE */
+.about-hero h1{
+  width: 1170px;
+  margin: auto;
+}
+
+
+.about-info{
+  width: 1170px;
+  margin: auto;
+}
+
+.about-info h2{
+  margin-top: 50px;
+}
+
+.about-info p{
+  margin:40px 30px 0 30px;
+}
+
+
+.history{
+  width: 1170px;
+  margin: 50px auto 50px auto;
+  display: flex;
+}
+
+.history img{
+  width: 500px;
+  height: 400px;
+  margin-left: 50px;
+}
+
+.history-info{
+  margin: 50px 40px 0 40px;
+  margin-right: 100px;
+}
+
+.partners{
+  width: 1170px;
+  margin: auto;
+}
+
+.partners-group{
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 60px 0;
+}
+
+.partners-content{
+  margin: 0 50px;
+}
+
+}
+
+
+
+ 
